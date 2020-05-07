@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.6)  7 MAY 2020 11:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.6)  7 MAY 2020 15:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1648,7 +1648,7 @@ LaTeX Info: Redefining \nameref on input line 57.
 File: head_foot/journal_name.pdf Graphic file (type pdf)
 
 <use head_foot/journal_name.pdf>
-Package pdftex.def Info: head_foot/journal_name.pdf used on input line 164.
+Package pdftex.def Info: head_foot/journal_name.pdf used on input line 169.
 (pdftex.def)             Requested size: 150.79515pt x 30.0pt.
 
 
@@ -1658,278 +1658,131 @@ f): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
 File: head_foot/RSC_LOGO_CMYK.pdf Graphic file (type pdf)
 
 <use head_foot/RSC_LOGO_CMYK.pdf>
-Package pdftex.def Info: head_foot/RSC_LOGO_CMYK.pdf used on input line 164.
+Package pdftex.def Info: head_foot/RSC_LOGO_CMYK.pdf used on input line 169.
 (pdftex.def)             Requested size: 82.56197pt x 55.0pt.
 
 <head_foot/header_bar.pdf, id=30, 512.91624pt x 36.135pt>
 File: head_foot/header_bar.pdf Graphic file (type pdf)
 
 <use head_foot/header_bar.pdf>
-Package pdftex.def Info: head_foot/header_bar.pdf used on input line 164.
+Package pdftex.def Info: head_foot/header_bar.pdf used on input line 169.
 (pdftex.def)             Requested size: 526.37598pt x 37.086pt.
-LaTeX Font Info:    Try loading font information for T2A+cmss on input line 164
+LaTeX Font Info:    Try loading font information for T2A+cmss on input line 169
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/cyrillic/t2acmss.fd
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 16
-4.
+9.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 16
-4.
+9.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 16
-4.
+9.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 16
-4.
+9.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 164.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 169.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 164.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 169.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 164.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 169.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 164.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 169.
 
 <head_foot/DOI.pdf, id=31, 118.041pt x 9.8769pt>
 File: head_foot/DOI.pdf Graphic file (type pdf)
  <use head_foot/DOI.pdf>
-Package pdftex.def Info: head_foot/DOI.pdf used on input line 164.
+Package pdftex.def Info: head_foot/DOI.pdf used on input line 169.
 (pdftex.def)             Requested size: 118.0407pt x 9.87688pt.
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/m/n' in size <15> not available
-(Font)              size <14.4> substituted on input line 164.
+(Font)              size <14.4> substituted on input line 169.
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/m/n' instead on input line 164.
+(Font)              using `T2A/cmss/m/n' instead on input line 169.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 164.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 169.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 164.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 169.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 164.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 169.
 <head_foot/dates.pdf, id=32, 79.13565pt x 64.19984pt>
 File: head_foot/dates.pdf Graphic file (type pdf)
 
 <use head_foot/dates.pdf>
-Package pdftex.def Info: head_foot/dates.pdf used on input line 164.
+Package pdftex.def Info: head_foot/dates.pdf used on input line 169.
 (pdftex.def)             Requested size: 79.13544pt x 64.19968pt.
 
-./fin_ni-p.tex:164: Missing $ inserted.
-<inserted text> 
-                $
-l.164 ]
-       
-? 
-
-Overfull \hbox (7.21284pt too wide) in paragraph at lines 164--164
+Overfull \hbox (7.21284pt too wide) in paragraph at lines 169--169
 [][] 
  []
 
 
 LaTeX Font Warning: Font shape `T2A/bch/b/n' undefined
-(Font)              using `T2A/bch/m/n' instead on input line 170.
+(Font)              using `T2A/bch/m/n' instead on input line 175.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 176.
+Package hyperref Warning: Ignoring empty anchor on input line 181.
 
 
 LaTeX Font Warning: Font shape `T2A/bch/m/it' undefined
-(Font)              using `T2A/bch/m/n' instead on input line 176.
+(Font)              using `T2A/bch/m/n' instead on input line 181.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 177.
+Package hyperref Warning: Ignoring empty anchor on input line 182.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 178.
+Package hyperref Warning: Ignoring empty anchor on input line 183.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 179.
+Package hyperref Warning: Ignoring empty anchor on input line 184.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 180.
-
-
-Package natbib Warning: Citation `Skala2005' on page 1 undefined on input line 
-196.
-
-
-Package natbib Warning: Citation `skala_m-2003' on page 1 undefined on input li
-ne 196.
-
-
-Package natbib Warning: Citation `Buseck1969' on page 1 undefined on input line
- 196.
-
-
-Package natbib Warning: Citation `Britvin-2002' on page 1 undefined on input li
-ne 196.
-
-
-Package natbib Warning: Citation `Pratesi-2006' on page 1 undefined on input li
-ne 196.
-
-
-Package natbib Warning: Citation `reed_1968' on page 1 undefined on input line 
-196.
-
-
-Package natbib Warning: Citation `Britvin2019-SciRep' on page 1 undefined on in
-put line 196.
-
-
-Package natbib Warning: Citation `Britvin2019-PCM-Fe2P' on page 1 undefined on 
-input line 196.
-
-
-Package natbib Warning: Citation `Britvin2019-murashkoite-MP-FeP' on page 1 und
-efined on input line 196.
-
-
-Package natbib Warning: Citation `Britvin2020-Halamishite' on page 1 undefined 
-on input line 196.
-
-
-Package natbib Warning: Citation `Wu-2011-GRL' on page 1 undefined on input lin
-e 207.
-
-
-Package natbib Warning: Citation `Scott-2007-GRL' on page 1 undefined on input 
-line 207.
-
-
-Package natbib Warning: Citation `Dera-2008-GRL' on page 1 undefined on input l
-ine 207.
-
-
-Package natbib Warning: Citation `Wu_2010-JPCM' on page 1 undefined on input li
-ne 207.
-
-
-Package natbib Warning: Citation `Gu-2011-FeP-EPS' on page 1 undefined on input
- line 207.
-
-
-Package natbib Warning: Citation `Dera-2008-GRL' on page 1 undefined on input l
-ine 209.
-
-
-Package natbib Warning: Citation `Wu_2010-JPCM' on page 1 undefined on input li
-ne 210.
-
-
-Package natbib Warning: Citation `Zhao-2017-RSC-Adv' on page 1 undefined on inp
-ut line 211.
-
-
-Package natbib Warning: Citation `Wu-2011-GRL' on page 1 undefined on input lin
-e 211.
-
-
-Package natbib Warning: Citation `GU2014-EPSL' on page 1 undefined on input lin
-e 212.
-
-
-Package natbib Warning: Citation `Gu-2016-AmMiner-Fe3P' on page 1 undefined on 
-input line 212.
-
-
-Package natbib Warning: Citation `Wu-2011-GRL' on page 1 undefined on input lin
-e 213.
-
-
-Package natbib Warning: Citation `Britvin2019-PCM-Fe2P' on page 1 undefined on 
-input line 214.
-
-
-Package natbib Warning: Citation `Britvin2019-murashkoite-MP-FeP' on page 1 und
-efined on input line 214.
+Package hyperref Warning: Ignoring empty anchor on input line 185.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 220.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 225.
 
-Package natbib Warning: Citation `Britvin-2002' on page 1 undefined on input li
-ne 281.
-
-
-Package natbib Warning: Citation `Buseck1969' on page 1 undefined on input line
- 281.
-
-
-Package natbib Warning: Citation `Nisar-2010-EPSL' on page 1 undefined on input
- line 281.
-
-
-Package natbib Warning: Citation `Nisar-2010-EPSL' on page 1 undefined on input
- line 281.
-
-
-Package natbib Warning: Citation `Wu-2011-GRL' on page 1 undefined on input lin
-e 283.
-
-
-Package natbib Warning: Citation `Donohue-1968' on page 1 undefined on input li
-ne 290.
-
-
-Package natbib Warning: Citation `Dera-2009-JGR' on page 1 undefined on input l
-ine 291.
-
-
-Package natbib Warning: Citation `Nisar-2010-EPSL' on page 1 undefined on input
- line 296.
-
-
-Package natbib Warning: Citation `Dera-2011-JSSC' on page 1 undefined on input 
-line 297.
-
-
-Package natbib Warning: Citation `Dera2013-PCM' on page 1 undefined on input li
-ne 297.
-
-
-Package natbib Warning: Citation `Litasov-2019-HPR-NiP' on page 1 undefined on 
-input line 298.
-
-
-Underfull \vbox (badness 1983) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./head_foot/LF.pdf): PDF inc
 lusion: found PDF version <1.6>, but at most version <1.5> allowed
-<head_foot/LF.pdf, id=33, 154.53032pt x 8.28976pt>
+<head_foot/LF.pdf, id=54, 154.53032pt x 8.28976pt>
 File: head_foot/LF.pdf Graphic file (type pdf)
  <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf used on input line 302.
+Package pdftex.def Info: head_foot/LF.pdf used on input line 291.
 (pdftex.def)             Requested size: 167.78156pt x 9.0pt.
 
-<head_foot/RF.pdf, id=34, 90.45795pt x 7.4679pt>
+<head_foot/RF.pdf, id=55, 90.45795pt x 7.4679pt>
 File: head_foot/RF.pdf Graphic file (type pdf)
  <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf used on input line 302.
+Package pdftex.def Info: head_foot/RF.pdf used on input line 291.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
 
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -1938,17 +1791,10 @@ Package pdftex.def Info: head_foot/RF.pdf used on input line 302.
  <./head_foot/journal_name.pdf> <./head_foot/RSC_LOGO_CMYK.pdf> <./head_foot/he
 ader_bar.pdf> <./head_foot/DOI.pdf> <./head_foot/dates.pdf> <./head_foot/LF.pdf
 > <./head_foot/RF.pdf>]
-
-Package natbib Warning: Citation `Chen-2016-PhaseTrans' on page 2 undefined on 
-input line 303.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Package natbib Warning: Citation `Zhao2011-CALPHAD' on page 2 undefined on inpu
-t line 303.
-
-
-Package natbib Warning: Citation `Nisar-2010-EPSL' on page 2 undefined on input
- line 308.
+Underfull \vbox (badness 3449) has occurred while \output is active []
 
 
 Overfull \hbox (273.71552pt too wide) has occurred while \output is active
@@ -1961,183 +1807,125 @@ Overfull \vbox (7.00002pt too high) has occurred while \output is active []
 File: head_foot/RF.pdf Graphic file (type pdf)
 
 <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf used on input line 318.
+Package pdftex.def Info: head_foot/RF.pdf used on input line 321.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
 File: head_foot/LF.pdf Graphic file (type pdf)
  <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf used on input line 318.
+Package pdftex.def Info: head_foot/LF.pdf used on input line 321.
 (pdftex.def)             Requested size: 167.78156pt x 9.0pt.
  [2]
 
-Package natbib Warning: Citation `USPEX-GLASS2006713' on page 3 undefined on in
-put line 326.
+LaTeX Warning: Reference `f:d_disp' on page 3 undefined on input line 364.
 
-
-Package natbib Warning: Citation `USPEX-OGANOV-2006' on page 3 undefined on inp
-ut line 326.
-
-
-Package natbib Warning: Citation `USPEX-LYAKHOV-2010-1623' on page 3 undefined 
-on input line 326.
-
-
-Package natbib Warning: Citation `AIRSS-PhysRevLett.97.045504' on page 3 undefi
-ned on input line 327.
-
-
-Package natbib Warning: Citation `AIRSS-Pickard_2011' on page 3 undefined on in
-put line 327.
-
-
-Package natbib Warning: Citation `VASP-1-PhysRevB.59.1758' on page 3 undefined 
-on input line 330.
-
-
-Package natbib Warning: Citation `VASP-2-PhysRevB.54.11169' on page 3 undefined
- on input line 330.
-
-
-Package natbib Warning: Citation `PBE-PhysRevLett.78.1396' on page 3 undefined 
-on input line 331.
-
-
-Package natbib Warning: Citation `PAW-PhysRevB.50.17953' on page 3 undefined on
- input line 331.
-
-
-Package natbib Warning: Citation `phonopy' on page 3 undefined on input line 33
-8.
-
-
-Package natbib Warning: Citation `gavr2017_s' on page 3 undefined on input line
- 353.
-
-
-Package natbib Warning: Citation `gavr2016_fes' on page 3 undefined on input li
-ne 354.
-
-
-LaTeX Warning: Reference `f:d_disp' on page 3 undefined on input line 359.
-
-<str_ss.png, id=127, 337.26pt x 210.7875pt>
+<str_ss.png, id=190, 337.26pt x 210.7875pt>
 File: str_ss.png Graphic file (type png)
  <use str_ss.png>
-Package pdftex.def Info: str_ss.png used on input line 373.
+Package pdftex.def Info: str_ss.png used on input line 379.
 (pdftex.def)             Requested size: 264.46837pt x 165.29486pt.
 
-Overfull \hbox (9.24713pt too wide) in paragraph at lines 373--375
+Overfull \hbox (9.24713pt too wide) in paragraph at lines 379--382
 [][] 
  []
 
 File: head_foot/LF.pdf Graphic file (type pdf)
 <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf used on input line 384.
+Package pdftex.def Info: head_foot/LF.pdf used on input line 391.
 (pdftex.def)             Requested size: 167.78156pt x 9.0pt.
 File: head_foot/RF.pdf Graphic file (type pdf)
  <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf used on input line 384.
+Package pdftex.def Info: head_foot/RF.pdf used on input line 391.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
  [3 <./str_ss.png>]
-<magmom-uspex.jpg, id=137, 773.289pt x 560.8152pt>
+<magmom-uspex.jpg, id=212, 773.289pt x 560.8152pt>
 File: magmom-uspex.jpg Graphic file (type jpg)
  <use magmom-uspex.jpg>
-Package pdftex.def Info: magmom-uspex.jpg used on input line 387.
+Package pdftex.def Info: magmom-uspex.jpg used on input line 394.
 (pdftex.def)             Requested size: 238.01991pt x 172.61865pt.
 
-
-Package natbib Warning: Citation `Chen-2016-PhaseTrans' on page 4 undefined on 
-input line 418.
-
-
-Package natbib Warning: Citation `Zhao2011-CALPHAD' on page 4 undefined on inpu
-t line 418.
-
-
-Package natbib Warning: Citation `Oryshchyn-2004' on page 4 undefined on input 
-line 432.
-
-<convex_hull-2.png, id=141, 525.4029pt x 773.289pt>
+<convex_hull-2.png, id=216, 525.4029pt x 773.289pt>
 File: convex_hull-2.png Graphic file (type png)
  <use convex_hull-2.png>
-Package pdftex.def Info: convex_hull-2.png used on input line 437.
+Package pdftex.def Info: convex_hull-2.png used on input line 434.
 (pdftex.def)             Requested size: 238.01991pt x 350.32492pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<PT-Ni2P-Ni3P.jpg, id=142, 560.8152pt x 773.289pt>
+<PT-Ni2P-Ni3P.jpg, id=217, 560.8152pt x 773.289pt>
 File: PT-Ni2P-Ni3P.jpg Graphic file (type jpg)
  <use PT-Ni2P-Ni3P.jpg>
-Package pdftex.def Info: PT-Ni2P-Ni3P.jpg used on input line 445.
+Package pdftex.def Info: PT-Ni2P-Ni3P.jpg used on input line 442.
 (pdftex.def)             Requested size: 238.01991pt x 328.18921pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Package natbib Warning: Citation `Buseck1969' on page 4 undefined on input line
- 460.
-
-
-Package natbib Warning: Citation `Dera-2009-JGR' on page 4 undefined on input l
-ine 461.
-
-
-Package natbib Warning: Citation `Nisar-2010-EPSL' on page 4 undefined on input
- line 461.
-
-
-Package natbib Warning: Citation `skala_m-2003' on page 4 undefined on input li
-ne 462.
-
-
-Underfull \vbox (badness 1072) has occurred while \output is active []
-
 File: head_foot/RF.pdf Graphic file (type pdf)
-
 <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf used on input line 464.
+Package pdftex.def Info: head_foot/RF.pdf used on input line 458.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
 File: head_foot/LF.pdf Graphic file (type pdf)
  <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf used on input line 464.
+Package pdftex.def Info: head_foot/LF.pdf used on input line 458.
 (pdftex.def)             Requested size: 167.78156pt x 9.0pt.
- [4 <./magmom-uspex.jpg>]
-Underfull \vbox (badness 7576) has occurred while \output is active []
+ [4 <./magmom-uspex.jpg> <./convex_hull-2.png>]
+Underfull \hbox (badness 1072) in paragraph at lines 462--465
+\T2A/bch/m/it/9 N2P, and barringerite-N2P min-er-als and their find-ings in
+ []
+
+
+Underfull \hbox (badness 4967) in paragraph at lines 468--469
+\T2A/bch/m/it/9 В большинстве журналов он не обязательный, и я
+ []
+
+
+Underfull \hbox (badness 3189) in paragraph at lines 468--469
+\T2A/bch/m/it/9 то дополнительную информацию, не содержащуюся в
+ []
+
+(./fin_ni-p.bbl
+Underfull \hbox (badness 2460) in paragraph at lines 80--89
+[]\T2A/bch/m/it/9 S. N. Britvin, M. N. Murashko, Y. Vap-nik, Y. S.
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 90--101
+[]\T2A/bch/m/it/9 S. N. Britvin, Y. Vap-nik, Y. S. Polekhovsky, S. V.
+ []
+
+
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
 
 File: head_foot/LF.pdf Graphic file (type pdf)
-
 <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf used on input line 487.
+Package pdftex.def Info: head_foot/LF.pdf used on input line 151.
 (pdftex.def)             Requested size: 167.78156pt x 9.0pt.
 File: head_foot/RF.pdf Graphic file (type pdf)
  <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf used on input line 487.
+Package pdftex.def Info: head_foot/RF.pdf used on input line 151.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
- [5 <./convex_hull-2.png> <./PT-Ni2P-Ni3P.jpg>]
-No file fin_ni-p.bbl.
+ [5 <./PT-Ni2P-Ni3P.jpg>]
+Underfull \hbox (badness 1163) in paragraph at lines 204--211
+[]\T2A/bch/m/it/9 P. Dera, J. Nisar, R. Ahuja, S. Tkachev and V. B.
+ []
 
-Package natbib Warning: There were undefined citations.
-
-
+) 
 AED: lastpage setting LastPage
 File: head_foot/RF.pdf Graphic file (type pdf)
 <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf used on input line 493.
+Package pdftex.def Info: head_foot/RF.pdf used on input line 481.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
 File: head_foot/LF.pdf Graphic file (type pdf)
  <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf used on input line 493.
+Package pdftex.def Info: head_foot/LF.pdf used on input line 481.
 (pdftex.def)             Requested size: 167.78156pt x 9.0pt.
  [6]
 \Changes@OutFile=\write4
 \openout4 = `fin_ni-p.soc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 493.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 493.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 481.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 481.
  (./fin_ni-p.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 493.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 493.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 481.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 481.
 Package rerunfilecheck Info: File `fin_ni-p.out' has not changed.
 (rerunfilecheck)             Checksum: 8DF97D6C9A0C80FB1B680725051A917C;373.
 
@@ -2154,43 +1942,38 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 493.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 481.
  ) 
 Here is how much of TeX's memory you used:
- 20558 strings out of 492995
- 357595 string characters out of 6132705
- 591787 words of memory out of 5000000
- 23727 multiletter control sequences out of 15000+600000
+ 20687 strings out of 492995
+ 360801 string characters out of 6132705
+ 590967 words of memory out of 5000000
+ 23817 multiletter control sequences out of 15000+600000
  581203 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,15n,48p,10423b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.7} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.6} has been referenced but does not 
-exist, replaced by a fixed one
-
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{
-/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/cm-super/sfss0700.pfb></usr/local/texlive/2017/tex
-mf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/local/texlive/2017/texmf
--dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/texlive/2017/texmf-d
-ist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2017/texmf-dis
-t/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texlive/2017/texmf-dist/
-fonts/type1/public/cm-super/sfss1440.pfb></usr/local/texlive/2017/texmf-dist/fo
-nts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/u
-rw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/ut
-mr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on fin_ni-p.pdf (6 pages, 2454227 bytes).
+ 36i,15n,52p,10423b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
+}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/cm-super/sfss0700.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/cm-super/sfss1440.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
+/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/
+utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pf
+b>
+Output written on fin_ni-p.pdf (6 pages, 2459167 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 156 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
+ 319 PDF objects out of 1000 (max. 8388607)
+ 246 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 500000)
  104 words of extra memory for PDF output out of 10000 (max. 10000000)
 

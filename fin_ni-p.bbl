@@ -1,0 +1,331 @@
+\providecommand*{\mcitethebibliography}{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+{\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{39}
+\providecommand*{\natexlab}[1]{#1}
+\providecommand*{\mciteSetBstSublistMode}[1]{}
+\providecommand*{\mciteSetBstMaxWidthForm}[2]{}
+\providecommand*{\mciteBstWouldAddEndPuncttrue}
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*{\mciteBstWouldAddEndPunctfalse}
+  {\let\EndOfBibitem\relax}
+\providecommand*{\mciteSetBstMidEndSepPunct}[3]{}
+\providecommand*{\mciteSetBstSublistLabelBeginEnd}[3]{}
+\providecommand*{\EndOfBibitem}{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}
+{(\emph{\alph{mcitesubitemcount}})}
+\mciteSetBstSublistLabelBeginEnd{\mcitemaxwidthsubitemform\space}
+{\relax}{\relax}
+
+\bibitem[Sk{\'a}la and C{\'i}sa\v{r}ov{\'a}(2005)]{Skala2005}
+R.~Sk{\'a}la and I.~C{\'i}sa\v{r}ov{\'a}, \emph{Physics and Chemistry of
+  Minerals}, 2005, \textbf{31}, 721--732\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Sk\'{a}la and Dr\'{a}bek(2003)]{skala_m-2003}
+R.~Sk\'{a}la and M.~Dr\'{a}bek, \emph{Mineralogical Magazine}, 2003,
+  \textbf{67}, 783--792\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Buseck(1969)]{Buseck1969}
+P.~R. Buseck, \emph{Science}, 1969, \textbf{165}, 169--171\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Britvin \emph{et~al.}(2002)Britvin, Rudashevsky, Krivovichev, Burns,
+  and Polekhovsky]{Britvin-2002}
+S.~N. Britvin, N.~S. Rudashevsky, S.~V. Krivovichev, P.~C. Burns and Y.~S.
+  Polekhovsky, \emph{American Mineralogist}, 2002, \textbf{87},
+  1245--1249\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Pratesi \emph{et~al.}(2006)Pratesi, Bindi, and
+  Moggi-Cecchi]{Pratesi-2006}
+G.~Pratesi, L.~Bindi and V.~Moggi-Cecchi, \emph{American Mineralogist}, 2006,
+  \textbf{91}, 451--454\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Reed(1968)]{reed_1968}
+S.~J.~B. Reed, \emph{Mineralogical Magazine and Journal of the Mineralogical
+  Society}, 1968, \textbf{36}, 850--854\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Britvin Sergey N.} \emph{et~al.}(2019){Britvin Sergey N.},
+  {Shilovskikh Vladimir V.}, {Pagano Renato}, {Vlasenko Natalia S.}, {Zaitsev
+  Anatoly N.}, {Krzhizhanovskaya Maria G.}, {Lozhkin Maksim S.}, {Zolotarev
+  Andrey A.}, and {Gurzhiy Vladislav V.}]{Britvin2019-SciRep}
+{Britvin Sergey N.}, {Shilovskikh Vladimir V.}, {Pagano Renato}, {Vlasenko
+  Natalia S.}, {Zaitsev Anatoly N.}, {Krzhizhanovskaya Maria G.}, {Lozhkin
+  Maksim S.}, {Zolotarev Andrey A.} and {Gurzhiy Vladislav V.},
+  \emph{Scientific Reports}, 2019, \textbf{9}, 1047\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Britvin \emph{et~al.}(2019)Britvin, Murashko, Vapnik, Polekhovsky,
+  Krivovichev, Vereshchagin, Vlasenko, Shilovskikh, and
+  Zaitsev]{Britvin2019-PCM-Fe2P}
+S.~N. Britvin, M.~N. Murashko, Y.~Vapnik, Y.~S. Polekhovsky, S.~V. Krivovichev,
+  O.~S. Vereshchagin, N.~S. Vlasenko, V.~V. Shilovskikh and A.~N. Zaitsev,
+  \emph{Physics and Chemistry of Minerals}, 2019, \textbf{46}, 361--369\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Britvin \emph{et~al.}({2019})Britvin, Vapnik, Polekhovsky,
+  Krivovichev, Krzhizhanovskaya, Gorelova, Vereshchagin, Shilovskikh, and
+  Zaitsev]{Britvin2019-murashkoite-MP-FeP}
+S.~N. Britvin, Y.~Vapnik, Y.~S. Polekhovsky, S.~V. Krivovichev, M.~G.
+  Krzhizhanovskaya, L.~A. Gorelova, O.~S. Vereshchagin, V.~V. Shilovskikh and
+  A.~N. Zaitsev, \emph{{Mineralogy and Petrology}}, {2019}, \textbf{{113}},
+  {237--248}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Britvin Sergey N.} \emph{et~al.}(2020){Britvin Sergey N.}, {Murashko
+  Mikhail N.}, {Vapnik Yevgeny}, {Polekhovsky Yury S.}, {Krivovichev Sergey
+  V.}, {Vereshchagin Oleg S.}, {Shilovskikh Vladimir V.}, {Vlasenko Natalia
+  S.}, and {Krzhizhanovskaya Maria G.}]{Britvin2020-Halamishite}
+{Britvin Sergey N.}, {Murashko Mikhail N.}, {Vapnik Yevgeny}, {Polekhovsky Yury
+  S.}, {Krivovichev Sergey V.}, {Vereshchagin Oleg S.}, {Shilovskikh Vladimir
+  V.}, {Vlasenko Natalia S.} and {Krzhizhanovskaya Maria G.}, \emph{Physics and
+  Chemistry of Minerals}, 2020, \textbf{47}, 3\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wu \emph{et~al.}(2011)Wu, Mookherjee, Gu, and Qin]{Wu-2011-GRL}
+X.~Wu, M.~Mookherjee, T.~Gu and S.~Qin, \emph{Geophysical Research Letters},
+  2011, \textbf{38}, \relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Scott \emph{et~al.}(2007)Scott, Huggins, Frank, Maglio, Martin, Meng,
+  Santill{\'a}n, and Williams]{Scott-2007-GRL}
+H.~P. Scott, S.~Huggins, M.~R. Frank, S.~J. Maglio, C.~D. Martin, Y.~Meng,
+  J.~Santill{\'a}n and Q.~Williams, \emph{Geophysical Research Letters}, 2007,
+  \textbf{34}, \relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dera \emph{et~al.}(2008)Dera, Lavina, Borkowski, Prakapenka, Sutton,
+  Rivers, Downs, Boctor, and Prewitt]{Dera-2008-GRL}
+P.~Dera, B.~Lavina, L.~A. Borkowski, V.~B. Prakapenka, S.~R. Sutton, M.~L.
+  Rivers, R.~T. Downs, N.~Z. Boctor and C.~T. Prewitt, \emph{Geophysical
+  Research Letters}, 2008, \textbf{35}, \relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wu and Qin(2010)]{Wu_2010-JPCM}
+X.~Wu and S.~Qin, \emph{Journal of Physics: Conference Series}, 2010,
+  \textbf{215}, 012110\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Gu} \emph{et~al.}(2011){Gu}, {Wu}, {Qin}, and
+  {Dubrovinsky}]{Gu-2011-FeP-EPS}
+T.~{Gu}, X.~{Wu}, S.~{Qin} and L.~{Dubrovinsky}, \emph{Physics of the Earth and
+  Planetary Interiors}, 2011, \textbf{184}, 154--159\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zhao \emph{et~al.}(2017)Zhao, Liu, Zhang, Yu, Li, and
+  Yang]{Zhao-2017-RSC-Adv}
+Z.~Zhao, L.~Liu, S.~Zhang, T.~Yu, F.~Li and G.~Yang, \emph{RSC Adv.}, 2017,
+  \textbf{7}, 15986--15991\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gu \emph{et~al.}(2014)Gu, Fei, Wu, and Qin]{GU2014-EPSL}
+T.~Gu, Y.~Fei, X.~Wu and S.~Qin, \emph{Earth and Planetary Science Letters},
+  2014, \textbf{390}, 296--303\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gu \emph{et~al.}(2016)Gu, Fei, Wu, and Qin]{Gu-2016-AmMiner-Fe3P}
+T.~Gu, Y.~Fei, X.~Wu and S.~Qin, \emph{American Mineralogist}, 2016,
+  \textbf{101}, 205--210\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Nisar and Ahuja(2010)]{Nisar-2010-EPSL}
+J.~Nisar and R.~Ahuja, \emph{Earth and Planetary Science Letters}, 2010,
+  \textbf{295}, 578--582\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Donohue \emph{et~al.}(1968)Donohue, Bither, and Young]{Donohue-1968}
+P.~C. Donohue, T.~A. Bither and H.~S. Young, \emph{Inorganic Chemistry}, 1968,
+  \textbf{7}, 998--1001\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dera \emph{et~al.}(2009)Dera, Lavina, Borkowski, Prakapenka, Sutton,
+  Rivers, Downs, Boctor, and Prewitt]{Dera-2009-JGR}
+P.~Dera, B.~Lavina, L.~A. Borkowski, V.~B. Prakapenka, S.~R. Sutton, M.~L.
+  Rivers, R.~T. Downs, N.~Z. Boctor and C.~T. Prewitt, \emph{Journal of
+  Geophysical Research: Solid Earth}, 2009, \textbf{114}, \relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dera \emph{et~al.}(2011)Dera, Lazarz, and Lavina]{Dera-2011-JSSC}
+P.~Dera, J.~D. Lazarz and B.~Lavina, \emph{Journal of Solid State Chemistry},
+  2011, \textbf{184}, 1997--2003\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dera \emph{et~al.}(2013)Dera, Nisar, Ahuja, Tkachev, and
+  Prakapenka]{Dera2013-PCM}
+P.~Dera, J.~Nisar, R.~Ahuja, S.~Tkachev and V.~B. Prakapenka, \emph{Physics and
+  Chemistry of Minerals}, 2013, \textbf{40}, 183--193\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Litasov \emph{et~al.}(2019)Litasov, Shatskiy, Minin, Kuper, and
+  Ohfuji]{Litasov-2019-HPR-NiP}
+K.~D. Litasov, A.~F. Shatskiy, D.~A. Minin, K.~E. Kuper and H.~Ohfuji,
+  \emph{High Pressure Research}, 2019, \textbf{39}, 561--578\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Chen \emph{et~al.}(2016)Chen, Yu, Lu, and Chen]{Chen-2016-PhaseTrans}
+J.-S. Chen, C.~Yu, H.~Lu and J.-M. Chen, \emph{Phase Transitions}, 2016,
+  \textbf{89}, 1078--1089\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zhao \emph{et~al.}(2011)Zhao, Zhou, Du, Wang, Peng, Kong, Sha, Ouyang,
+  and Zhang]{Zhao2011-CALPHAD}
+D.~Zhao, L.~Zhou, Y.~Du, A.~Wang, Y.~Peng, Y.~Kong, C.~Sha, Y.~Ouyang and
+  W.~Zhang, \emph{Calphad}, 2011, \textbf{35}, 284--291\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Glass \emph{et~al.}(2006)Glass, Oganov, and
+  Hansen]{USPEX-GLASS2006713}
+C.~W. Glass, A.~R. Oganov and N.~Hansen, \emph{Computer Physics
+  Communications}, 2006, \textbf{175}, 713--720\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Oganov and Glass(2006)]{USPEX-OGANOV-2006}
+A.~R. Oganov and C.~W. Glass, \emph{The Journal of Chemical Physics}, 2006,
+  \textbf{124}, 244704\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lyakhov \emph{et~al.}(2010)Lyakhov, Oganov, and
+  Valle]{USPEX-LYAKHOV-2010-1623}
+A.~O. Lyakhov, A.~R. Oganov and M.~Valle, \emph{Computer Physics
+  Communications}, 2010, \textbf{181}, 1623--1632\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Pickard and Needs(2006)]{AIRSS-PhysRevLett.97.045504}
+C.~J. Pickard and R.~J. Needs, \emph{Phys. Rev. Lett.}, 2006, \textbf{97},
+  045504\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Pickard and Needs(2011)]{AIRSS-Pickard_2011}
+C.~J. Pickard and R.~J. Needs, \emph{Journal of Physics: Condensed Matter},
+  2011, \textbf{23}, 053201\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kresse and Joubert(1999)]{VASP-1-PhysRevB.59.1758}
+G.~Kresse and D.~Joubert, \emph{Phys. Rev. B}, 1999, \textbf{59},
+  1758--1775\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kresse and Furthm\"uller(1996)]{VASP-2-PhysRevB.54.11169}
+G.~Kresse and J.~Furthm\"uller, \emph{Phys. Rev. B}, 1996, \textbf{54},
+  11169--11186\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Perdew \emph{et~al.}(1997)Perdew, Burke, and
+  Ernzerhof]{PBE-PhysRevLett.78.1396}
+J.~P. Perdew, K.~Burke and M.~Ernzerhof, \emph{Phys. Rev. Lett.}, 1997,
+  \textbf{78}, 1396--1396\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bl\"ochl(1994)]{PAW-PhysRevB.50.17953}
+P.~E. Bl\"ochl, \emph{Phys. Rev. B}, 1994, \textbf{50}, 17953--17979\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Togo and Tanaka(2015)]{phonopy}
+A.~Togo and I.~Tanaka, \emph{Scripta Materialia}, 2015, \textbf{108},
+  1--5\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gavryushkin \emph{et~al.}(2017)Gavryushkin, Litasov, Dobrosmislov, and
+  Popov]{gavr2017_s}
+P.~N. Gavryushkin, K.~D. Litasov, S.~S. Dobrosmislov and Z.~I. Popov,
+  \emph{physica status solidi (b)}, 2017, \textbf{254}, 1600857\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gavryushkin \emph{et~al.}(2016)Gavryushkin, Popov, Litasov,
+  Belonoshko, and Gavryushkin]{gavr2016_fes}
+P.~N. Gavryushkin, Z.~I. Popov, K.~D. Litasov, A.~B. Belonoshko and
+  A.~Gavryushkin, \emph{Geophysical Research Letters}, 2016, \textbf{43},
+  8435--8440\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Oryshchyn \emph{et~al.}({2004})Oryshchyn, Babizhetskyy, Chykhriy,
+  Aksel'rud, Stoyko, Bauer, Guerin, and Kuz'ma]{Oryshchyn-2004}
+S.~Oryshchyn, V.~Babizhetskyy, S.~Chykhriy, L.~Aksel'rud, S.~Stoyko, I.~Bauer,
+  R.~Guerin and Y.~Kuz'ma, \emph{{Inorganic Materials}}, {2004}, \textbf{{40}},
+  {380--385}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}
