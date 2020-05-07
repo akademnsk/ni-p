@@ -1,0 +1,515 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%This is the LaTeX ARTICLE template for RSC journals
+%Copyright The Royal Society of Chemistry 2016
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[twoside,twocolumn,9pt]{article}
+\usepackage{extsizes}
+\usepackage[super,sort&compress,comma]{natbib} 
+\usepackage[version=3]{mhchem}
+\usepackage[left=1.5cm, right=1.5cm, top=1.785cm, bottom=2.0cm]{geometry}
+\usepackage{balance}
+\usepackage{mathptmx}
+\usepackage{sectsty}
+\usepackage{graphicx} 
+\usepackage{lastpage}
+\usepackage[format=plain,justification=justified,singlelinecheck=false,font={stretch=1.125,small,sf},labelfont=bf,labelsep=space]{caption}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{fnpos}
+%\addto{\captionsenglish}{%
+%  \renewcommand{\refname}{Notes and references}
+%}
+\usepackage{array}
+\usepackage{droidsans}
+\usepackage{charter}
+\usepackage[T1]{fontenc}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{setspace}
+\usepackage[compact]{titlesec}
+\usepackage{hyperref}
+\usepackage{array,longtable}
+\usepackage{supertabular,booktabs}
+%%%%%%%%%%%%%%
+\usepackage[OT2, T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+%\usepackage[russian, english]{babel}
+%\usepackage[T2A,T1]{fontenc}
+%\usepackage[utf8]{inputenc}
+%\usepackage[russian,english]{babel}
+%%%Please don't disable any packages in the preamble, as this may cause the template to display incorrectly.%%%
+
+
+\usepackage{epstopdf}%This line makes .eps figures into .pdf - please comment out if not required.
+
+\definecolor{cream}{RGB}{222,217,201}
+
+%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{changes}
+\usepackage{lipsum}% <- For dummy text
+\definechangesauthor[name={Per cusse}, color=orange]{per}
+\setremarkmarkup{(#2)}
+
+\usepackage{soul}
+\begin{document}
+
+\pagestyle{fancy}
+\thispagestyle{plain}
+\fancypagestyle{plain}{
+%%%HEADER%%%
+\renewcommand{\headrulewidth}{0pt}
+}
+%%%END OF HEADER%%%
+
+%%%PAGE SETUP - Please do not change any commands within this section%%%
+\makeFNbottom
+\makeatletter
+\renewcommand\LARGE{\@setfontsize\LARGE{15pt}{17}}
+\renewcommand\Large{\@setfontsize\Large{12pt}{14}}
+\renewcommand\large{\@setfontsize\large{10pt}{12}}
+\renewcommand\footnotesize{\@setfontsize\footnotesize{7pt}{10}}
+\makeatother
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\renewcommand\footnoterule{\vspace*{1pt}% 
+\color{cream}\hrule width 3.5in height 0.4pt \color{black}\vspace*{5pt}} 
+\setcounter{secnumdepth}{5}
+
+\makeatletter 
+\renewcommand\@biblabel[1]{#1}            
+\renewcommand\@makefntext[1]% 
+{\noindent\makebox[0pt][r]{\@thefnmark\,}#1}
+\makeatother 
+\renewcommand{\figurename}{\small{Fig.}~}
+\sectionfont{\sffamily\Large}
+\subsectionfont{\normalsize}
+\subsubsectionfont{\bf}
+\setstretch{1.125} %In particular, please do not alter this line.
+\setlength{\skip\footins}{0.8cm}
+\setlength{\footnotesep}{0.25cm}
+\setlength{\jot}{10pt}
+\titlespacing*{\section}{0pt}{4pt}{4pt}
+\titlespacing*{\subsection}{0pt}{15pt}{1pt}
+%%%END OF PAGE SETUP%%%
+
+%%%FOOTER%%%
+\fancyfoot{}
+\fancyfoot[LO,RE]{\vspace{-7.1pt}\includegraphics[height=9pt]{head_foot/LF}}
+\fancyfoot[CO]{\vspace{-7.1pt}\hspace{13.2cm}\includegraphics{head_foot/RF}}
+\fancyfoot[CE]{\vspace{-7.2pt}\hspace{-14.2cm}\includegraphics{head_foot/RF}}
+\fancyfoot[RO]{\footnotesize{\sffamily{1--\pageref{LastPage} ~\textbar  \hspace{2pt}\thepage}}}
+\fancyfoot[LE]{\footnotesize{\sffamily{\thepage~\textbar\hspace{3.45cm} 1--\pageref{LastPage}}}}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt} 
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\arrayrulewidth}{1pt}
+\setlength{\columnsep}{6.5mm}
+\setlength\bibsep{1pt}
+%%%END OF FOOTER%%%
+
+%%%FIGURE SETUP - please do not change any commands within this section%%%
+\makeatletter 
+\newlength{\figrulesep} 
+\setlength{\figrulesep}{0.5\textfloatsep} 
+
+\newcommand{\topfigrule}{\vspace*{-1pt}% 
+\noindent{\color{cream}\rule[-\figrulesep]{\columnwidth}{1.5pt}} }
+
+\newcommand{\botfigrule}{\vspace*{-2pt}% 
+\noindent{\color{cream}\rule[\figrulesep]{\columnwidth}{1.5pt}} }
+
+\newcommand{\dblfigrule}{\vspace*{-1pt}% 
+\noindent{\color{cream}\rule[-\figrulesep]{\textwidth}{1.5pt}} }
+
+\makeatother
+%%%END OF FIGURE SETUP%%%
+
+%%%TITLE, AUTHORS AND ABSTRACT%%%
+\twocolumn[
+  \begin{@twocolumnfalse}
+{\includegraphics[height=30pt]{head_foot/journal_name}\hfill\raisebox{0pt}[0pt][0pt]{\includegraphics[height=55pt]{head_foot/RSC_LOGO_CMYK}}\\[1ex]
+\includegraphics[width=18.5cm]{head_foot/header_bar}}\par
+\vspace{1em}
+\sffamily
+\begin{tabular}{m{4.5cm} p{13.5cm} }
+
+\includegraphics{head_foot/DOI} & \noindent\LARGE{\textbf{Phase stability in nickel phosphides at high pressures %$^\dag$
+}} \\%Article title goes here instead of the text "This is the title"
+\vspace{0.3cm} & \vspace{0.3cm} \\
+
+ & \noindent\large{Talgat M.~Inerbaev,$^{\ast}$\textit{$^{ab}$} Nursultan Sagatov,\textit{$^{ac}$}, Dinara Sagatova,\textit{$^{ac}$} Pavel N.  Gavryushkin,\textit{$^{ac}$} 
+ 
+ Abdirash T. Akilbekov,\textit{$^{b}$} and Konstantin D. Litasov\textit{$^{de}$}} \\%Author names go here instead of "Full name", etc.
+
+\includegraphics{head_foot/dates} & \noindent\normalsize{
+%
+We performed first-principles calculations on the crystal structure prediction and relative thermodynamic stability for Ni--P binary system at 100-400~GPa pressure range. 
+Crystal structures of seven intermediate compositions, Ni$_{14}$P, Ni$_{12}$P, Ni$_{10}$P, Ni$_8$P, Ni$_7$P, Ni$_5$P, Ni$_3P, and Ni$_2$P stable against decomposition on the mixture of Ni and P are predicted in all investigated pressure range.
+First seven of them,  present substitutional solid solutions of phosphorus in nickel face-centered cubic structure. 
+Thus, up to 25 mol.\% of P can be dissolved in crystal structure of Ni at low temperature and temperature can sufficiently increases this limit.
+For Ni$_3$P nickel phosphide, a new high-pressure phase with $Cmca$ space group, which can be also considered as (Ni,P) solid solution within highly deformed $fcc$ Ni structure, was found.
+This phase is stable in the range ... GPa.
+Ni$_2$P is found to be adopt allabogdanite structure at pressures above ... %  (space group $P\bar{6}2m$). 
+The $P$-$T$ phase diagrams of Ni$_2$P and Ni$_3$P phosphides were calculated by the lattice dynamics method in the quasi-harmonic approximation.
+%
+} \\%The abstract goes here instead of the text "The abstract should be..."
+
+\end{tabular}
+
+ \end{@twocolumnfalse} \vspace{0.6cm}
+
+]
+%%%END OF TITLE, AUTHORS AND ABSTRACT%%%
+
+%%%FONT SETUP - please do not change any commands within this section
+\renewcommand*\rmdefault{bch}\normalfont\upshape
+\rmfamily
+\section*{}
+\vspace{-1cm}
+
+
+%%%FOOTNOTES%%%
+
+\footnotetext{\textit{$^{a}$~Sobolev Institute of Geology and Mineralogy, Siberian Branch of the Russian Academy of Sciences, Novosibirsk, 630090 Russia. E-mail: inerbaevtm@igm.nsc.ru}}
+\footnotetext{\textit{$^{b}$~L. N. Gumilyov Eurasian National University, Nur-Sultan, 010008 Kazakhstan.}} 
+\footnotetext{\textit{$^{c}$~Novosibirsk State University, Novosibirsk, 630090 Russia.}}
+\footnotetext{\textit{$^{d}$~Vereshchagin Institute for High Pressure Physics, Russian Academy of Sciences, Moscow, 108840, Russia.}}
+\footnotetext{\textit{$^{e}$~Fersman Mineralogical Museum Russian Academy of Sciences, Moscow, Russia.}}
+%Please use \dag to cite the ESI in the main text of the article.
+%If you article does not have ESI please remove the the \dag symbol from the title and the footnotetext below.
+%\footnotetext{\dag~Electronic supplementary information (ESI) available: Method of quasi-harmonic approximation, phonon dispersion curves, structures predicted by USPEX and AIRSS method. See DOI: 00.0000/00000000.} 
+%additional addresses can be cited as above using the lower-case letters, c, d, e... If all authors are from the same address, no letter is required
+
+%\footnotetext{\ddag~Additional footnotes to the title and authors can be included \textit{e.g.}\ `Present address:' or `These authors contributed equally to this work' as above using the symbols: \ddag, \textsection, and \P. Please place the appropriate symbol next to the author's name and include a \texttt{\textbackslash footnotetext} entry in the the correct place in the list.}
+
+
+%%%END OF FOOTNOTES%%%
+
+%%%MAIN TEXT%%%%
+%The main text of the article\cite{Mena2000} should appear here.
+\section{Introduction}
+
+Phosphides play a significant role in the mineralogy of iron meteorites as a component of the ternary Fe-Ni-P system. 
+Although being rare, accessory minerals  with  composition  (Fe,Ni)$_x$P, gives important information about phosphourus geochemistry on the early stages of the universe formation. \cite{Skala2005, skala_m-2003, Buseck1969, Britvin-2002, Pratesi-2006, reed_1968, Britvin2019-SciRep, Britvin2019-PCM-Fe2P, Britvin2019-murashkoite-MP-FeP, Britvin2020-Halamishite}
+The occurrence  of  these  minerals  in  meteoritic  samples  is  believed  to originate either from the equilibrium condensation of protoplanetary materials  taking  place  in  solar nebulae  or  from  crystallization processes  in  the  cores  of  parent  bodies. 
+%From the analysis of iron meteorites and the observation of Earth's moment of inertia, it is known that the primary constituent of Earth's inner core is an iron-nickel alloy~\cite{Birch-1992} with Fe/Ni$\sim$16.~\cite{ALLEGRE-1995-515,MCDONOUGH-1995-223}
+%At the same time, geochemical and geophysical studies show that light elements (i.e. hydrogen, oxygen, carbon, sulfur, phosphorus and silicon) play important roles in the Earth's core.~\cite{POIRIER-1994-319,Cote-2008-GRL}
+
+%Phosphorus is one of the elements believed to be present in the Earth's core. \cite{Stewart-2007-GRL}
+%Its content of the Earth's core was estimated to be <1~wt\%.~\cite{ALLEGRE-1995-515,MCDONOUGH-1995-223,McDonough2004book}
+%High concentrations of phosphorus (up to 4 wt\%) are able to dissolve into iron at high pressures over a wide temperature range.\cite{Stewart-2007-GRL}
+
+
+Fe end-members were intensively studied using both experimental and theoretical techniques. 
+So far, most of the high-pressure investigations on iron phosphides have been restricted on Fe$_4$P,~\cite{Wu-2011-GRL} Fe$_3$P,~\cite{Scott-2007-GRL} Fe$_2$P~\cite{Dera-2008-GRL, Wu_2010-JPCM} and FeP.~\cite{Gu-2011-FeP-EPS}
+Several structural and magnetic phase transitions have been revealed as the result. 
+Dera et al. observed that on heating at 8 GPa phase of Fe2P transforms to a high-pressure modification, which could be quenched to ambient conditions.~\cite{Dera-2008-GRL} 
+Theoretical modelling demonstrates that the stable phase of Fe$_2$P should be the $Pnma$ with the lowest total energy at lower pressure, and the $P\bar{6}2m$ and $Pnma$ phases would transform to the $P\bar{3}m$ phase with larger coordination number of iron at 125~GPa and 153~GPa, respectively.~\cite{Wu_2010-JPCM} 
+Theoretical studies have shown that Fe$_3$P could decompose into Fe$_2$P and Fe$_4$P at pressures higher than 214~GPa ~\cite{Zhao-2017-RSC-Adv}, and Fe$_3$P and Fe would react with formation of Fe$_4$P at $\sim$100 GPa.~\cite{Wu-2011-GRL} 
+Fe$_3$P exhibits a structural phase transition from $I4$ to $P4/mnc$ at 64~GPa and 1600~K accompanied with an electronic state transition from high spin to low spin at around 20-40~GPa.~\cite{GU2014-EPSL, Gu-2016-AmMiner-Fe3P}
+Upon compression, Fe$_4$P undergoes transition from ferromagnetic to nonmagnetic state at 80~GPa.\cite{Wu-2011-GRL}
+Britvin et al. reported two new structures of FeP ($Pnma$) and FeP$_2$ ($Pnnm$), found in the pyrometamorphic rocks.  \cite {Britvin2019-PCM-Fe2P,Britvin2019-murashkoite-MP-FeP}
+
+\begin{table*}[t]
+\small
+  \caption{\ Structural data for the predicted phases of Ni--P system Параметры ячейки лучше округлить до тысячных, четврётая цифра абсолютно не значима. Координаты атомов – до десятитысячных (именно так делает большинство авторов, например К. Пикард, лично я бы всё до тысячных округлял)) }
+  \label{tbl:new_phases}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llllllllll}
+    \hline
+    \multicolumn{6}{l}{} & \multicolumn{4}{l}{Atomic coordinates}\\\cline{7-10}
+%     &  &  &  &  &   &  & & & \\\cline{7-10}
+    Phase & Pressure (GPa) & Space group & \multicolumn{3}{l}{Lattice parameters (\AA, degree)}  & Atom & $x$ & $y$ & $z$\\
+    \midrule
+    Ni$_{14}$P & 400 & $C2/m$ (\#12) & $a$=6.8686\AA    & $b$=6.2097\AA   & $c$=5.0749\AA    & Ni1 & 0.00000 & 0.16860 & 0.00000 \\
+               &     &               & $\alpha$=90      & $\beta$=119.559 & $\gamma$=90      & Ni2 & 0.09850 & 0.00000 & 0.39699 \\    
+               &     &               &                  &                 &                  & Ni3 & 0.30065 & 0.00000 & 0.19837 \\
+               &     &               &                  &                 &                  & Ni4 & 0.70280 & 0.33474 & 0.80023 \\
+               &     &               &                  &                 &                  & Ni5 & 0.59887 & 0.16587 & 0.39807 \\
+               &     &               &                  &                 &                  & P1  & 0.00000 & 0.50000 & 0.00000 \\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\midrule
+    Ni$_{12}$P & 400 & $R\bar3$(\#148)    & $a$=7.4609\AA    & $b$=7.4609\AA   & $c$=5.0755\AA    & Ni1 & 0.53902  & 0.38422 & 0.00134 \\
+               &     &               & $\alpha$=90.00   & $\beta$=90.00 & $\gamma$=120       & Ni2 & -0.02851 & 0.40876 & 0.33153 \\
+               &     &               &                  &                 &                  & P1  & 0.00000  & 0.00000 & 0.00000 \\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\midrule
+    Ni$_{10}$P & 300 & $P\bar{1}$ (\#2)     & $a$=3.6654\AA    & $b$=4.7295\AA   & $c$=4.7339\AA    & Ni1 & 0.04502 & 0.41007 & 0.18032 \\
+               &     &               & $\alpha$=107.482 & $\beta$=104.937 & $\gamma$=97.456  & Ni2 & 0.59015 & 0.31912 & 0.35915 \\
+               &     &               &                  &                 &                  & Ni3 & 0.13716 & 0.22851 & 0.54678 \\
+               &     &               &                  &                 &                  & Ni4 & 0.22672 & 0.04944 & -0.09103\\
+               &     &               &                  &                 &                  & Ni5 & 0.67759 & 0.13805 & 0.72806 \\
+               &     &               &                  &                 &                  & P1  & 0.50000 & 0.50000 & 0.00000 \\
+\midrule
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    Ni$_{8}$P  & 200 & $P\bar{1}$ (\#2)     & $a$=3.7669\AA    & $b$=3.7719\AA   & $c$=4.8694\AA    & Ni1 & 0.22148 & 0.11048 & 0.56082 \\
+               &     &               & $\alpha$=75.00 & $\beta$=82.569 & $\gamma$=80.481     & Ni2 & 0.67093 & 0.33311 & 0.66740 \\
+               &     &               &                  &                 &                  & Ni3 & 0.44401 & 0.21845 & 0.11085 \\
+               &     &               &                  &                 &                  & Ni4 & 0.11116 & 0.55650 & 0.78047 \\
+               &     &               &                  &                 &                  & P1  & 0.00000 & 0.00000 & 0.00000 \\
+\midrule
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    Ni$_{7}$P  & 100 & $P\bar{1}$ (\#2)     & $a$=3.7553\AA    & $b$=3.7772\AA   & $c$=4.3925\AA    & Ni1 &  0.50201 & 0.00029 & 0.24766 \\
+               &     &               & $\alpha$=73.032 & $\beta$=89.980 & $\gamma$=79.849    & Ni2 &  0.00000 & 0.00000 & 0.50000 \\
+               &     &               &                  &                 &                  & Ni3 &  0.75389 & 0.49840 & 0.12435 \\
+               &     &               &                  &                 &                  & Ni4 &  0.24895 & 0.50693 & 0.37130 \\
+               &     &               &                  &                 &                  & P1  &  0.00000 & 0.00000 & 0.00000 \\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\midrule
+    Ni$_{5}$P  & 200 & $P6_3/mcm$ (\#193)  & $a$=3.7732\AA    & $b$=3.7732\AA   & $c$=7.0786\AA    & Ni1 & 0.33333   &  0.66667  &   0.00000  \\
+               &     &                    & $\alpha$=90.00   & $\beta$=90.00 & $\gamma$=120       & Ni2 & 0.67096   &  0.00000  &   0.25000  \\
+               &     &                    &                  &                 &                  & P1 &  0.00000    & 0.00000   &  0.00000  \\
+\midrule
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    Ni$_{3}$P  & 100 & $Cmca$ (\#64) & $a$=13.1666\AA   & $b$=4.4854\AA   & $c$=4.4851\AA    & Ni1 & 0.38137   &  0.00000  &   0.00000  \\
+               &     &               & $\alpha$=90.00   & $\beta$=90.00   & $\gamma$=90.00   & Ni2 & 0.00000   &  0.18176  &   0.81801  \\
+               &     &               &                  &                 &                  & Ni3 & 0.25000   &  0.74729  &   0.25000  \\   
+               &     &               &                  &                 &                  & P1 &  0.13651    & 0.00000   &  0.00000  \\
+\hline
+               %    \midrule
+  \end{tabular*}
+\end{table*}
+
+
+
+
+%{\textbf{He 2018}}
+Alloying effect of Ni on physical properties and structure of Fe and it's alloys with light elements is also of geological interest, as according to geochemical assesment Earth's core could contain up to 10mol\% of Ni \cite{} (Уточнить и поставить ссылку на Чёрную Книжку (?)).
+Addition of nickel to iron phosphides affect the structure and phase stability. 
+The example of Fe2P shows, that a small addition of Ni and Co stabilise the structure of alabogdanite against ... ~\cite{Britvin-2002, Buseck1969, Nisar-2010-EPSL}, and also slightly increases the  bulk modulus of the allabogdanite phase.~\cite{Nisar-2010-EPSL} 
+А может здесь сослаться на нашу статью по алабогданиту (Bekker, Sagatov et al., 2020)?
+The incorporation of Ni in nonmagnetic Fe$_4$P results in reduction of the compressional and shear wave velocities enhancing their anisotropy.\cite{Wu-2011-GRL}
+
+%\textbf{Litasov2019}
+There are numerous phases were revealed in Ni--P system at ambient pressure. 
+Among them are Ni$_3$P, Ni$_8$P$_3$, Ni$_{12}$P$_5$ , Ni$_2$P, Ni$_5$P$_4$, NiP, NiP$_2$, and NiP$_3$. 
+%\textit{Recently, Britvin et. al. reported a new structure of terristial phosphide Ni$_5$P$_4$ (crystal symmetry P6$_3mc$).} \cite{Britvin2020-Halamishite}
+However, the data on this system at high-pressures, especially above 100 GPa, are limited.
+Donohue et al.\cite{Donohue-1968} studied P-rich compositions (NiP$_{2.2-2.5}$) at 1.5-6.5~GPa. 
+Dera et. al.\cite{Dera-2009-JGR} synthesized a cubic NiP$_2$ phase at 6.5 GPa during heating at 1200$^\circ$C and subsequent cooling to 900$^\circ$C. 
+Incongruent melting associated with formation of pyrite-type NiP$_2$ and amorphous Ni-P alloy was found at an intermediate pressure range, between 6.5 and 40~GPa.
+%Above 40 GPa, Ni$_2$P melts congruently. 
+%At room conditions, Ni$_2$P has hexagonal structure, and without heating it remains in this structure to at least~50 GPa. 
+%Similarly, heating of Ni$_2$P at 6.5 and 15~GPa to 1600-2400$^\circ$C in diamond anvil cell revealed the formation of NiP2 and indicated the possibility of incongruent melting of Ni2P.\cite{Dera-2009-JGR} 
+The phase transitions in Ni$_2$P were not observed in these experiments at pressures up to 50~GPa consistently with theoretical modelling.\cite{Nisar-2010-EPSL}
+Several reversible phase transitions were established in NiP at ambient temperature: (a) from $Pbca$ to $Cmc2_1$ at 3.5~GPa, (b) to $Pnma$-phase at 8.5~GPa and again to $Cmc2_1$-phase, but with different crystal structure at 25~GPa.\cite{Dera-2011-JSSC, Dera2013-PCM}
+Litasov et.al. studied the melting processes and subsolidus phase relations in the Ni-Ni$_2$P system at 6~GPa and 900-1600$^\circ$C.\cite{Litasov-2019-HPR-NiP} 
+Хорошо бы в этой и других подобных ссылках отметить конкретный результат. А так получается просто констатация факта, что кто-то что-то исследовал. А что получено в результате?
+The stability of four intermediate compositions, Ni$_3$P, Ni$_8$P$_3$/Ni$_5$P$_2$, Ni$_{12}$P$_5$, and Ni$_2$P transjordanite was found. 
+The Ni$_{12}$P$_5$ phase becomes unstable at 900$^\circ$C and decomposes into Ni$_5$P$_2$ and Ni$_2$P. 
+
+The phase stability, elastic properties, hardness and related electronic structures of Ni--P crystal phases at ambient pressure and zero temperature were studied theoretically in Ref.~\cite{Chen-2016-PhaseTrans, Zhao2011-CALPHAD}. 
+{\color{blue}{According to calculations, at atmospheric pressure and zero temperature, Ni-P compounds can be ordered as the formation enthalpy increases as follows: Ni$_5$P$_4$ < Ni$_2$P < Ni$_{12}$P$_5$ < NiP < Ni$_8$P$_3$ < Ni$_3$P < NiP$_2$ < NiP$_3$.}}
+Как я понял, здесь считается энтальпия образования на атом, без учёта какой это атом. И какая информация получается в результате? что Ni$_5$P$_4$ стабильнее Ni$_2$P? Информативно ли это? Мне кажется что нет, но видимо я что-то не понимаю.
+%\textbf{Nisar-2010-EPSL}
+
+The equations of state and structural parameters of Ni$_2$P, NiP$_2$ (pyrite type) and Ni-doped Fe$_2$P (allabogdanite) at high pressures were determined with first-principles calculations.\cite{Nisar-2010-EPSL}
+There was not found barringerite-allabogdanite phase transition in Ni$_2$P at pressures up to 50~GPa. 
+Bulk modulus of (Fe$_{1-x}$Ni$_x$)$_2$P (allabogdanite) increases with Ni concentration. 
+Increasing the concentration of Ni decreases the stability of structure and suppresses the total magnetic moment of the system. 
+
+In present research, we theoretically investigate Ni-P compounds in the pressure range from 100 to 400 GPa. 
+A search for new crystalline structures is carried out.
+The relative stability of all predicted and well-known experimentally observed structures of the Ni--P system is investigated. 
+The phase diagram of the Ni$_2$P system is calculated, where barringerite-allobogdanite structural phase transition occurs at pressures of 77-87 GPa depending on temperature. 
+Similar calculations of the phase equilibrium between the new high-pressure Ni$_3$P phase and the schreibersite structure are also performed.
+
+
+
+   
+
+
+\section{Computation Details}
+
+The structure predictions were performed using USPEX code based on evolutionary algorithms \cite{USPEX-GLASS2006713, USPEX-OGANOV-2006, USPEX-LYAKHOV-2010-1623} and AIRSS based on
+a random sampling method.\cite{AIRSS-PhysRevLett.97.045504, AIRSS-Pickard_2011} 
+Crystal structure prediction calculations were divided into two stages. At the first stage, the search for stable structures of intermediate compositions was performed using the USPEX package. 
+At the second stage, the predictions were performed for the fixed compositions represented on the convex hull constructed at the first stage using USPEX and AIRSS.
+The calculations of the electronic structure were carried out within the DFT using the VASP 5.4 package.\cite{VASP-1-PhysRevB.59.1758, VASP-2-PhysRevB.54.11169}
+The exchange-correlation interaction was taken into account in the generalized  gradient approximation (GGA) in the form of the Perdew-Burke-Ernzerhof (PBE) functional \cite{PBE-PhysRevLett.78.1396} in a plane-wave basis set along with projector augmented-wave (PAW) pseudopotentials.\cite{PAW-PhysRevB.50.17953} 
+For all studied structures, calculations were performed, taking into account the spin polarization. It was found that in all cases, except for the new predicted phases Ni$_{10}$P, Ni$_{12}$P, and Ni$_{14}$P, the magnetic moment is equal to zero. 
+The computation parameters were as follows: energy cut-off -- 450 eV; the density of the grid of Monkhorst-Pack k-point mesh -- 0.5\AA$^{-1}$. 
+The most promising predicted structures were then optimized with higher accuracy at various pressures. 
+In these calculations, the cut-off energy was 700 eV and the density of k-points was 0.2\AA$^{-1}$. 
+
+To take into account the temperature effect and predict the phase diagrams, we used the method of lattice dynamics within the quasi-harmonic approximation (QHA). 
+For this task, the phonon frequencies were calculated with the PHONOPY code.\cite{phonopy}
+
+%\subsection{Graphics}
+%Graphics should be inserted on the page where they are first mentioned (unless they are equations, which appear in the flow of the text).\cite{Cotton1999, VASP-1-PhysRevB.59.1758}
+
+
+\section{Results and Discussion}
+
+\subsection{New predicted crystal structures}
+Structural data of the new phases predicted with USPEX and AIRSS codes are summarized in Table~\ref{tbl:new_phases} and shown in Fig.~\ref{f:strs}. All found structures are dynamically stable,the corresponding phonon spectra presented in Supporting Information (SI).  
+
+The structures of Ni14P, Ni12P, Ni10P, Ni8P, Ni7P, and Ni5P are characterized by $fcc$ packing, witi Ni atoms partially substituted by P atoms. 
+The pure Ni also present in the $fcc$ form up to 400 GPa.
+Thus, the found structures can be considered as (Ni,P) solid solutions.
+This type of isomorphism between $d$-metal and light element is unusual at ambient pressures.
+At extreme pressures of the Earth's core, when elements which are typical non-metals like sulphur adopt metallic properties \cite{gavr2017_s}, this isomorphism became typical.
+Isomorphic replacement of iron on sulphur within $hcp$ or $bcc$ crystal structures can be given as exmaple \cite{gavr2016_fes}.
+Я здесь в обоих случаях на себя ссылаюсь, хорошо бы добавить и другие ссылки (например на Cote и Vocadlo), но сходу ничего предложить не могу.
+Typical for solid solutions, P atoms in found structures tend to be homogenically spread through the structure, without clustering or group formation.
+The deformation of the ideal cubic $fcc$ structure increases with increasing amount of phosphourus.
+The deformation of coordination cube-octahedron of ligand Ni and P atoms around central Ni atom can be traced by the changes of Ni-P and Ni-N bond lengths, shown in {\it Supporting information} Figure \ref{f:d_disp}.
+
+The found Ni2P-$Pnma$ structure is the analogue of allabogdanite mineral with composition Fe2P.
+It is sufficiently different from described above solid solutions. 
+Thus based on the obtained results the limit pf (Ni,P) isomorpism can be estimated as 25-33 mol.\%.
+This value is related to the temperature of 0 K, and at temperatures of the Earth's core, reaching 5000-6000 K, the miscibility of Ni and P will be sufficiently higher.
+The fact, that similar isomorphism was not found in Fe--P systems, likely shows that solubility of P in (Fe,Ni) alloy will be higher than in the pure Fe.
+
+\begin{figure}
+	\includegraphics[width=0.5\textwidth]{str_ss}
+	\caption{Coordination cube-octahedron around Ni atoms in fcc-Ni (a), Ni$_5$P-$P6_3/mcm$ (b), and Ni$_3$P-$Cmca$ (c) structures; upper row – view along three-fold axis, lowe row – perpendicular to the three-fold axis
+	Коллеги, я здесь запутался, получается что Ni$_3$P-$Cmca$ – это тоже твёрдый раствор (Ni,P) просто сильно деформированный, т.е при давлении выше 70 ГПа просто стабилизируется твёрдый раствор, то же самое имеет место и в отношении других составов, кроме Ni2P. К рисунку с выпуклой оболочкой хорошо бы добавить ещё рисунок с фазовыми переходами, как мы это обычно делаем, их там практически нет, но всё равно, лучше для наглядности сделать, потому что мне было не просто разобраться. Нурсултан, посчитай, в пожалуйста, в ТОПОСе дисперсию связей для всё твёрдых растворов, и сделай предварительный рисунок. Дисперсия должна нарастать по мере увеличения количества фософра.   Нурсултан, вставь рисунок нормального качества. Структуру аллабогданита я бы тоже добавил, под буквой (d), а для имеющихся структур оставил только одну проекцию вдоль оси третьего порядка, слегка наклонённую }\label{f:strs}
+\end{figure}
+
+\begin{figure}
+\caption{Dispersion of Ni-P, Ni-N bond length in coordination cube octahedron around central Ni atom in Ni14P, Ni12P, Ni10P, Ni8P, Ni7P, Ni5P, and Ni3P structures. Этот рисунок будет в Supporting information} \label{f:d_dist}
+\end{figure}
+
+Spin-polarized calculations show the presence of a magnetic moment in structures with relatively high nickel content from Ni14P to Ni8P, as shown in Fig. 6. In all other cases, the magnetic order is absent. The magnetic moment per nickel atom decreases with an increase in the specific (что такое specific content?) phosphorus content in the system. With increasing pressure, the magnetic moment and magnetic ordering completely disappear at a pressure of 315, 360, 350, and 115 GPa for the Ni14P, Ni12P, Ni10P, and Ni8P, respectively.
+
+
+ 
+
+
+
+\st{Since all the predicted predicted structures, except of Ni$_3$P, are isomorphic to the fcc Ni, the local order and the nearest environment of atoms in it are the same}
+{\color{red}(Не  понятно. Здесь структуры образуют изморфную серию, т.е. являются твёрдыми растворами, но это не означает что они изоморфны. Что опдразумевается под изоморфизмом структур)}. 
+{\color{blue}Since all the predicted structures, except Ni$_3$P, are solid solutions in which the atoms of phosphorus in an ordered manner replace the atoms in the fcc lattice of Ni, the local order and the nearest environment of atoms in it are the same.}
+The unit cell of Ni$_3$P, consisting of eight formula units, contains three symmetrically nonequivalent nickel atoms occupying the sites 8d (Ni1), 8f (Ni2), and 8e (Ni3) and one phosphorus atom at position 8d. 
+The nickel atom Ni1 is located inside a quadrangular prism, the vertices of which are formed by Ni2 and Ni3 atoms, in the center of the square formed by phosphorus atoms, as shown in Fig.~\ref{Ni3P:local}(a). 
+The Ni2 atom is in a square-prism coordination environment. In this case, the faces of the prism inside which Ni2 is located, are formed by Ni1 atoms and phosphorus atoms. In this case, the Ni1 and P atoms at the vertices of the prism form flat rectangles (Fig.~\ref{Ni3P:local}(b)).
+The local environment of the Ni3 atom (Fig.~\ref{Ni3P:local}) is the same as that of Ni2, except that the faces of the prism lying in the YZ plane are rotated 90 degrees relative to each other, as a result of which the Ni3 atom is in the tetrahedral environment of Ni1 and P. atoms. The short-range order near the phosphorus atom, as can be seen from a comparison of Figures~\ref{Ni3P:local}(a) and ~\ref{Ni3P:local}(d), is the same as that of the Ni1 atom, except that all the nearest neighbors of P are nickel atoms.
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.45\textwidth]{Ni3P-local-order.jpg} %[height=6cm]
+ \caption{Local-order in Ni$_3$P-$Cmca$. Purple balls correspond to phosphorous atoms. {\color{red}Здесь хорошо бы полиэдры построить, нужно в ВЕСТЕ выбрать}}
+ \label{Ni3P:local}
+\end{figure}
+
+Spin-polarized calculations show the presence of a magnetic moment in structures with a relatively high nickel content from Ni$_{14}$ to Ni$_8$P, as shown in Fig.~\ref{fgr:magmom}. 
+In all other cases, the magnetic order is absent. The magnetic moment per nickel atom decreases with an increase in the specific phosphorus content in the system. 
+With increasing pressure, the magnetic moment and magnetic ordering completely disappear at a pressure of 315, 360, 350, and 115 GPa for the Ni$_{14}$P, Ni$_{12}$P, Ni$_{10}$P, and Ni$_8$P lattices, respectively. 
+Unlike the considered phosphides, the magnitude of the magnetic moment in pure nickel weakly depends on external pressure. 
+With an increase in pressure from 100 to 200~GPa, the magnetic moment per nickel atom decreases from 0.58~$\mu_B$ to 0.5~$\mu_B$ and then remains practically unchanged.
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=0.45\textwidth]{magmom-uspex.jpg}
+  \caption{Pressure dependence of magnatic moment (in Bohr magneton, $\mu_B$) per Ni atom for predicted Ni--P crystal structures.
+  The dependence of the magnetic moment on pressure for pure nickel is given for comparison.
+  }
+  \label{fgr:magmom}
+\end{figure}
+
+
+
+\subsection{Thermodynamic stabily of Ni--P compounds}
+Both sets of the predicted and experimentally observed Ni--P binary compounds were used to evaluate the formation enthalpy $\Delta H$ with respect ot the elemental solids Ni and P according to Eq.~\ref{Eq:enthalpy}, in order to explore the thermodinamic stability of Ni--P:  
+
+\begin{equation}\label{Eq:enthalpy}
+ \Delta H(\mathrm{Ni}_n\mathrm{P}_m) = \frac{H(\mathrm{Ni}_n\mathrm{P}_m)-nH(\mathrm{Ni})-mH(\mathrm{P})}{Z(n+m)},
+\end{equation} 
+where $H=U+PV$ is the entalpy of each compound, $Z$ is a number of structure units in the unit cell and $\Delta H$ is the enthalpy of formation per formula unit. 
+Herein, $U$, $P$, and $V$ are internal energy, pressure and volume, correspondingly. 
+Detailed information about the element solids can be found in SI. 
+
+The relative stabilities of the considered compositions at the selected pressures of 100, 200, 300, and 400 GPa, with $\Delta H$ evaluated per atom, are shown in Fig.~\ref{fgr:convex_hull}. 
+The stable phase lies on the convex hulls (the global stability lines). А почему в единственном числе?
+Here, we take into consideration the Ni$_2$P with allabogdanite structure and the new predicted Ni$_3$P structure. 
+As will be shown below, these polymorphs are more thermodynamically favorable in the pressure range considered in the present paper.
+
+All predicted Ni$_{14}$P, Ni$_{12}$P, Ni$_{10}$P, Ni$_8$P, and Ni$_7$P phases are stable through the entire range of considered pressures . 
+The Ni$_{5}$P structure is metastable at a pressure of 100 GPa ($\Delta H$=0.035~eV/atom), but it stabilizes at pressures of 200~GPa and higher. 
+Ni$_3$P and Ni$_2$P become thermodynamically stable at pressures above 200~GPa. 
+The structure of pyrite NiP$_2$ becomes metastable at pressures above 300~GPa.
+
+\st{The trend of phase stability for Ni--P compounds at zero pressure is Ni$_5$P$_4$ > Ni$_2$P > Ni$_{12}$P$_5$ > NiP > Ni$_8$P$_3$ > Ni$_3$P > NiP$_2$ > NiP$_3$.}
+{\color{green} Я уже приводил эту последовательность выше в Введении. Если лучше сослаться туда, можно это место переписать.}
+{\color{blue} As mentioned above, at atmospheric pressure Ni-P compounds can be ordered as the formation enthalpy increases as Ni$_5$P$_4$ < Ni$_2$P < Ni$_{12}$P$_5$ < NiP < Ni$_8$P$_3$ < Ni$_3$P < NiP$_2$ < NiP$_3$.}~\cite{Chen-2016-PhaseTrans, Zhao2011-CALPHAD}  
+{\color{red} Я бы избегал тут понятие тренд. Нигде кроме одной работы китайских исследователей я не видел. Опять же как считать стабильность в тренде? По идее нужно ссчитатть относительно соседей, т.к. именно эта разница энергий определяет стабильность, а здесь, как я понял, считается относительно Ni и P. }
+With increasing pressure, this sequence changes. At a low phosphorus content, structures with an increase in their enthalpy of formation per atom are ordered as follows: Ni$_3$P < Ni$_5$P < Ni$_7$P < Ni$_8$P < Ni$_{10}$P < Ni$_{12}$P < Ni$_{14}$P. 
+As mentioned above, structure Ni$_5$P is metastable at 100~GPa, and structure Ni$_3$P stabilizes at a pressure above 200~GPa. 
+However, the value by which it is necessary to lower the enthalpies of these compounds to stabilize them is small and practically lies within the calculation error. 
+At $P$=100~GPa, the most stable structure is NiP$_2$, whose enthalpy grows {\color{red}(with increasgin pressure?)} {\color{blue} with increasing pressure} relative to the Ni$_2$P and Ni$_8$P$_3$, and it is metastable at a pressure of 400~GPa. 
+At pressures of 200, 300, and 400~GPa, the most stable is the Ni$_8$P$_3$. 
+Other intermediate compounds with known lattices stable at atmospheric pressure under the considered conditions become metastable
+
+It has to be emphasized that the results presented in Fig.\ref{fgr:convex_hull} are obtained neglecting thermal effects. 
+For their full consideration in the framework of the lattice dynamics method, it is necessary to calculate the vibrational spectra of all the structures considered. We performed phonon mode calculations for all considered Ni--P structures except the Ni$_8$P$_3$ lattice. 
+For this structure, we encountered a technical difficulty related to the fact that the unit cell of this crystal contains 132 atoms on one side. 
+On the other hand, due to its low symmetry, PHONOPY software generates 264 different unit cells with displaced atoms to calculate phonon modes. 
+Our computer resources do not allow us to carry out such massive calculations, and we leave this question for further research in the future. 
+However, using the experimental data of Oryshchyn et al.~\cite{Oryshchyn-2004}, we can assume that the Ni$_8$P$_3$ phase is likely unstable at atmospheric pressure and 800$^{\circ}$C. 
+This structure is expected to be unstable at the higher pressures and  sufficiently high temperatures. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.45\textwidth]{convex_hull-2.png} %[height=6cm]
+ \caption{Convex hulls of Ni--P system at various pressures and 0~K. Blue squares denote stable structures, red triangles - metastable structures.}
+ \label{fgr:convex_hull}
+\end{figure}
+
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=0.45\textwidth]{PT-Ni2P-Ni3P.jpg}
+  \caption{$P$-$T$ diagram of (a) Ni$_2$P and (b) Ni$_3$P. {\color{red}В обозначения протсранственных групп буквы пишутся италиком, а цифры – обычным шрифтом, а на рисунке – всё италиком} {\color{blue} Исправлено}}
+  \label{fgr:PT-Ni2P-Ni3P}
+\end{figure}
+
+%\begin{figure}[h]
+%\centering
+%  \includegraphics[width=0.45\textwidth]{Ni3P_Phase_diagram.png}
+%  \caption{PT-diagram of Ni$_3$P.}
+%  \label{fgr:PT-Ni3P}
+%\end{figure}
+
+\subsection{Structural phase transitions of Ni$_2$P and Ni$_3$P} 
+
+Structure prediction studies reveal the well-known allabogdanite structure of Ni$_2$P to be the most favorable phase in the range of 100-400~GPa. 
+On the other hand, it is well known that, at low pressures, the Ni$_2$P barringerite structure are more stable.~\cite{Buseck1969}
+Experimental and theoretical studies conducted in the pressure range 0-50 GPa did not show the existence of a structural phase transition between these phases.~\cite{Dera-2009-JGR,Nisar-2010-EPSL}
+In the case of Ni$_3$P compounds, the schreibersite structure is the most stable in the low-pressure region,\cite{skala_m-2003} while at the high-pressure we predicted the existence of the structure with $Cmca$ symmetry. 
+For both compositions, it is necessary to establish the PT stability fields of these polymorphs. 
+
+The results of calculations of phase diagrams in the $P-T$ plane, obtained by the lattice dynamics method in the QHA, are presented in Fig.~\ref{fgr:PT-Ni2P-Ni3P}. 
+The structural phase transition barringerite-allabogdanite in the Ni$_2$P system occurs at a pressure of 88~GPa at low temperatures and 78 GPa at $T$ = 2000~K. 
+In the Ni$_3$P system, the pressure at which the phase transition occurs is practically independent of temperature and the structural transformation occurs at 62~GPa.
+
+
+\section{Conclusions}
+As a result of computer simulation, the existence of seven new crystalline modifications of nickel phosphide of various stoichiometries in the pressure range of 100-400~GPa was predicted. 
+{\color{red}Вот посмотрел я ещё раз на эти seven new crystalline modifications и подумал, а можно ли их рассматривать как новые фазы. Возьмём например твёрдый раствор (Fe,Mg)2SiO4. Во всё интервале составов это одна и та же структура, один и тот же минерал, одна и та же модификация. В нашем случае отличие только в том, что атомы по позициям распределены закономерно, а не беспорядочно, но это просто ограничении методики.Поэтому я бы тут так и писал шесть структуры соответствующей одной серии твёрдых растворов.}
+\st{Six of these compounds turn to the fcc lattice of nickel if Ni atoms substitute phosphorus ones.} 
+{\color{blue} Six new structures are ordered substitutional solid solutions of phosphorus in the fcc lattice of Ni.} 
+For the phosphide of the Ni$_3$P composition, a new high-pressure phase of the $Cmca$ space group is predicted. 
+The transition from the low-pressure phase of Ni$_3$P-$I\bar{4}$ to the $Cmca$ structure occurs at a pressure of 62~GPa, regardless of the external temperature. 
+For Ni$_2$P, the allabogdanite lattice is a stable structure at high pressure. 
+The phase transformation between these crystalline modifications occurs at a pressure of 88~GPa at low temperatures, and 78~GPa at $T=2000$~K. 
+New phases with a sufficiently high nickel content of Ni$_{14}$P, Ni$_{12}$P, Ni$_{10}$P, and Ni$_8$P can have a magnetic order. 
+With increasing phosphorous content, the magnetic moment per nickel atom decreases. 
+
+\section*{Acknowledgements}
+
+The authors are thankful to the Center for Comput. Mater. Sci., Institute for Materials Research, Tohoku University for their continuous support of the supercomputing system to be used for our simulation works. 
+The reported study was funded by RFBR, project number 19-35-90043. 
+\textbf {The work is performed under the state assignment project of IGM, SB-RAS.}
+
+\balance
+%%%REFERENCES%%%
+\bibliography{NiP} %You need to replace "rsc" on this line with the name of your .bib file
+\bibliographystyle{rsc} %the RSC's .bst file
+
+\end{document}
+
+
+
