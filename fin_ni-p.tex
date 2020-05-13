@@ -1,7 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%This is the LaTeX ARTICLE template for RSC journals
-%Copyright The Royal Society of Chemistry 2016
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \documentclass[twoside,twocolumn,9pt]{article}
@@ -36,6 +32,7 @@
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T2A]{fontenc}
+%\usepackage[numbers]{natbib}
 %\usepackage[russian, english]{babel}
 %\usepackage[T2A,T1]{fontenc}
 %\usepackage[utf8]{inputenc}
@@ -220,64 +217,69 @@ Britvin et al. reported two new structures of FeP ($Pnma$) and FeP$_2$ ($Pnnm$),
 
 \begin{table*}[t]
 \small
-  \caption{\ Structural data for the found phases of Ni--P system 
-{\color{red}–(1) Здесь необходимо привести данные предсказанного аллабогданита-Ni$_2$P, чтобы желающие могли убедиться что это действительно аллабогданит. Параметры ячейки могут пригодиться экспериментаторам для расшифровки дифрактограмм. Вообщем привести стоит.
-– (2) Параметры ячейки лучше округлить до тысячных, четвёртая цифра абсолютно не значима. Координаты атомов – до десятитысячных (именно так делает большинство авторов, например К. Пикард, лично я бы всё до тысячных округлял))
-– (3) С помощью функции multirow можно сделать, чтобы названия Phase, Pressure и пр., были в центре ячейки
-– (4) В ячейке Lattice parameters в скобках указано (\AA, degree), а потом в таблице снова стоят \AA 
-– (5) Структурные данные лучше приводить для наиболее низкого давления (в поле стабильности, конечно), потому что при 400 ГПа эксперименты никто ставить не будет. И данные лучше приводить для одного и того же давления, чтобы можно было сравнить объемы. Вообщем, все твёрдые растворы лучше привести на 100 ГПа.}
+  \caption{{\color{blue} Structural data for the found phases of Ni--P system at P=100~GPa . The pressures at which the structures were predicted are indicated in the corresponding column}
+%{\color{red}–(1) Здесь необходимо привести данные предсказанного аллабогданита-Ni$_2$P, чтобы желающие могли убедиться что это действительно аллабогданит. Параметры ячейки могут пригодиться экспериментаторам для расшифровки дифрактограмм. Вообщем привести стоит.
+%– (2) Параметры ячейки лучше округлить до тысячных, четвёртая цифра абсолютно не значима. Координаты атомов – до десятитысячных (именно так делает большинство авторов, например К. Пикард, лично я бы всё до тысячных округлял))
+%– (3) С помощью функции multirow можно сделать, чтобы названия Phase, Pressure и пр., были в центре ячейки
+%– (4) В ячейке Lattice parameters в скобках указано (\AA, degree), а потом в таблице снова стоят \AA 
+%– (5) Структурные данные лучше приводить для наиболее низкого давления (в поле стабильности, конечно), потому что при 400 ГПа эксперименты никто ставить не будет. И данные лучше приводить для одного и того же давления, %чтобы можно было сравнить объемы. Вообщем, все твёрдые растворы лучше привести на 100 ГПа.}
 }
   \label{tbl:new_phases}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llllllllll}
     \hline
-    \multicolumn{6}{l}{} & \multicolumn{4}{c}{Atomic coordinates}\\\cline{7-10}
+    \multicolumn{6}{c}{} & \multicolumn{4}{c}{Atomic coordinates}\\\cline{7-10}
 %     &  &  &  &  &   &  & & & \\\cline{7-10}
     Phase & Pressure (GPa) & Space group & \multicolumn{3}{c}{Lattice parameters (\AA, degree)}  & Atom & $x$ & $y$ & $z$\\
     \midrule
-    Ni$_{14}$P & 400 & $C2/m$ (\#12) & $a$=6.8686\AA    & $b$=6.2097\AA   & $c$=5.0749\AA    & Ni1 & 0.00000 & 0.16860 & 0.00000 \\
-               &     &               & $\alpha$=90      & $\beta$=119.559 & $\gamma$=90      & Ni2 & 0.09850 & 0.00000 & 0.39699 \\    
-               &     &               &                  &                 &                  & Ni3 & 0.30065 & 0.00000 & 0.19837 \\
-               &     &               &                  &                 &                  & Ni4 & 0.70280 & 0.33474 & 0.80023 \\
-               &     &               &                  &                 &                  & Ni5 & 0.59887 & 0.16587 & 0.39807 \\
-               &     &               &                  &                 &                  & P1  & 0.00000 & 0.50000 & 0.00000 \\
+    Ni$_{14}$P & 400 & $C2/m$ (\#12) & $a$=7.538    & $b$=6.816   & $c$=5.567       & Ni1 & 0.000 & 0.169 & 0.000 \\
+               &     &               & $\alpha$=90      & $\beta$=120 & $\gamma$=90        & Ni2 & 0.099 & 0.000 & 0.397 \\    
+               &     &               &                  &                 &                  & Ni3 & 0.301 & 0.000 & 0.198 \\
+               &     &               &                  &                 &                  & Ni4 & 0.703 & 0.335 & 0.800 \\
+               &     &               &                  &                 &                  & Ni5 & 0.599 & 0.166 & 0.398 \\
+               &     &               &                  &                 &                  & P1  & 0.000 & 0.500 & 0.000 \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \midrule
-    Ni$_{12}$P & 400 & $R\bar3$(\#148)    & $a$=7.4609\AA    & $b$=7.4609\AA   & $c$=5.0755\AA    & Ni1 & 0.53902  & 0.38422 & 0.00134 \\
-               &     &               & $\alpha$=90.00   & $\beta$=90.00 & $\gamma$=120       & Ni2 & -0.02851 & 0.40876 & 0.33153 \\
-               &     &               &                  &                 &                  & P1  & 0.00000  & 0.00000 & 0.00000 \\
+    Ni$_{12}$P & 400 & $R\bar3$(\#148)    & $a$=8.032    & $b$=8.032   & $c$=5.261    & Ni1 & 0.539  & 0.384 & 0.001 \\
+               &     &               & $\alpha$=90   & $\beta$=90 & $\gamma$=120       & Ni2 & -0.029 & 0.409 & 0.332 \\
+               &     &               &                  &                 &                  & P1  & 0.000  & 0.000 & 0.000 \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \midrule
-    Ni$_{10}$P & 300 & $P\bar{1}$ (\#2)     & $a$=3.6654\AA    & $b$=4.7295\AA   & $c$=4.7339\AA    & Ni1 & 0.04502 & 0.41007 & 0.18032 \\
-               &     &               & $\alpha$=107.482 & $\beta$=104.937 & $\gamma$=97.456  & Ni2 & 0.59015 & 0.31912 & 0.35915 \\
-               &     &               &                  &                 &                  & Ni3 & 0.13716 & 0.22851 & 0.54678 \\
-               &     &               &                  &                 &                  & Ni4 & 0.22672 & 0.04944 & -0.09103\\
-               &     &               &                  &                 &                  & Ni5 & 0.67759 & 0.13805 & 0.72806 \\
-               &     &               &                  &                 &                  & P1  & 0.50000 & 0.50000 & 0.00000 \\
+    Ni$_{10}$P & 300 & $P\bar{1}$ (\#2)     & $a$=3.932    & $b$=5.074   & $c$=5.079    & Ni1 & 0.0450 & 0.4101 & 0.1803 \\
+               &     &               & $\alpha$=107.5 & $\beta$=105.0 & $\gamma$=97.4  & Ni2 & 0.5902 & 0.3191 & 0.3592 \\
+               &     &               &                  &                 &                  & Ni3 & 0.1372 & 0.2285 & 0.5468 \\
+               &     &               &                  &                 &                  & Ni4 & 0.2267 & 0.0494 & -0.0910\\
+               &     &               &                  &                 &                  & Ni5 & 0.6776 & 0.1381 & 0.7281 \\
+               &     &               &                  &                 &                  & P1  & 0.5000 & 0.5000 & 0.0000 \\
 \midrule
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    Ni$_{8}$P  & 200 & $P\bar{1}$ (\#2)     & $a$=3.7669\AA    & $b$=3.7719\AA   & $c$=4.8694\AA    & Ni1 & 0.22148 & 0.11048 & 0.56082 \\
-               &     &               & $\alpha$=75.00 & $\beta$=82.569 & $\gamma$=80.481     & Ni2 & 0.67093 & 0.33311 & 0.66740 \\
+    Ni$_{8}$P  & 200 & $P\bar{1}$ (\#2)     & $a$=3.927    & $b$=3.932   & $c$=5.076    & Ni1 & 0.22148 & 0.11048 & 0.56082 \\
+               &     &               & $\alpha$=75.0 & $\beta$=82.6 & $\gamma$=80.5     & Ni2 & 0.67093 & 0.33311 & 0.66740 \\
                &     &               &                  &                 &                  & Ni3 & 0.44401 & 0.21845 & 0.11085 \\
                &     &               &                  &                 &                  & Ni4 & 0.11116 & 0.55650 & 0.78047 \\
                &     &               &                  &                 &                  & P1  & 0.00000 & 0.00000 & 0.00000 \\
 \midrule
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    Ni$_{7}$P  & 100 & $P\bar{1}$ (\#2)     & $a$=3.7553\AA    & $b$=3.7772\AA   & $c$=4.3925\AA    & Ni1 &  0.50201 & 0.00029 & 0.24766 \\
-               &     &               & $\alpha$=73.032 & $\beta$=89.980 & $\gamma$=79.849    & Ni2 &  0.00000 & 0.00000 & 0.50000 \\
-               &     &               &                  &                 &                  & Ni3 &  0.75389 & 0.49840 & 0.12435 \\
-               &     &               &                  &                 &                  & Ni4 &  0.24895 & 0.50693 & 0.37130 \\
-               &     &               &                  &                 &                  & P1  &  0.00000 & 0.00000 & 0.00000 \\
+    Ni$_{7}$P  & 100 & $P\bar{1}$ (\#2)     & $a$=3.755    & $b$=3.777   & $c$=4.393    & Ni1 &  0.5020 & 0.0003 & 0.2477 \\
+               &     &               & $\alpha$=73.0 & $\beta$=90.0 & $\gamma$=79.9    & Ni2 &  0.0000 & 0.0000 & 0.5000 \\
+               &     &               &                  &                 &                  & Ni3 &  0.7539 & 0.4984 & 0.1244 \\
+               &     &               &                  &                 &                  & Ni4 &  0.2490 & 0.5069 & 0.3713 \\
+               &     &               &                  &                 &                  & P1  &  0.0000 & 0.0000 & 0.0000 \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \midrule
-    Ni$_{5}$P  & 200 & $P6_3/mcm$ (\#193)  & $a$=3.7732\AA    & $b$=3.7732\AA   & $c$=7.0786\AA    & Ni1 & 0.33333   &  0.66667  &   0.00000  \\
-               &     &                    & $\alpha$=90.00   & $\beta$=90.00 & $\gamma$=120       & Ni2 & 0.67096   &  0.00000  &   0.25000  \\
-               &     &                    &                  &                 &                  & P1 &  0.00000    & 0.00000   &  0.00000  \\
+    Ni$_{5}$P  & 200 & $P6_3/mcm$ (\#193)  & $a$=3.934    & $b$=3.934   & $c$=7.372      & Ni1 & 0.3333   &  0.6667  &   0.0000  \\
+               &     &                    & $\alpha$=90   & $\beta$=90 & $\gamma$=120       & Ni2 & 0.6710   &  0.0000  &   0.2500  \\
+               &     &                    &                  &                 &                  & P1 &  0.0000    & 0.0000   &  0.0000  \\
 \midrule
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    Ni$_{3}$P  & 100 & $Cmca$ (\#64) & $a$=13.1666\AA   & $b$=4.4854\AA   & $c$=4.4851\AA    & Ni1 & 0.38137   &  0.00000  &   0.00000  \\
-               &     &               & $\alpha$=90.00   & $\beta$=90.00   & $\gamma$=90.00   & Ni2 & 0.00000   &  0.18176  &   0.81801  \\
-               &     &               &                  &                 &                  & Ni3 & 0.25000   &  0.74729  &   0.25000  \\   
-               &     &               &                  &                 &                  & P1 &  0.13651    & 0.00000   &  0.00000  \\
+    Ni$_{3}$P  & 100 & $Cmca$ (\#64) & $a$=13.1666   & $b$=4.4854   & $c$=4.4851    & Ni1          & 0.3814   &  0.0000  &   0.0000  \\
+               &     &               & $\alpha$=90   & $\beta$=90   & $\gamma$=90   & Ni2 & 0.0000   &  0.1818  &   0.8180  \\
+               &     &               &                  &                 &                  & Ni3 & 0.2500   &  0.7473  &   0.2500  \\   
+               &     &               &                  &                 &                  & P1 &  0.1365    & 0.0000   &  0.0000  \\
+\midrule
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    Ni$_{2}$P  & 100 & $Pnma$ (\#64) & $a$=4.271   & $b$=3.307   & $c$=6.247    & Ni1 & 0.4537   &  0.2500  &   0.7890  \\
+&     &               & $\alpha$=90.00   & $\beta$=90.00   & $\gamma$=90.00   & Ni2 & 0.8260   &  0.2500  &   0.0589  \\   
+&     &               &                  &                 &                  & P1 &  0.8021    & 0.2500   &  0.3870  \\
 \hline
                %    \midrule
   \end{tabular*}
@@ -285,18 +287,19 @@ Britvin et al. reported two new structures of FeP ($Pnma$) and FeP$_2$ ($Pnnm$),
 
 
 
-
-%{\textbf{He 2018}}
-Alloying effect of Ni on physical properties and structure of Fe and it's alloys with light elements is also of geological interest, as according to geochemical assesment Earth's core could contain up to 10mol\% of Ni \cite{} {\color{red}(Уточнить и поставить ссылку на Чёрную Книжку (?))}.
+%From the analysis of iron meteorites and the observation of Earth's moment of inertia, it is known that the primary constituent of Earth's inner core is an iron-nickel alloy~\cite{Birch-1992} with Fe/Ni$\sim$16.~\cite{ALLEGRE-1995-515,MCDONOUGH-1995-223}
+Alloying effect of Ni on physical properties and structure of Fe and it's alloys with light elements is also of geological interest. 
+{\color{blue}From the analysis of iron meteorites and the observation of Earth's moment of inertia, it is known that the primary constituent of Earth's inner core is an iron-nickel alloy~\cite{Birch-1992} with Fe/Ni$\sim$16.~\cite{ALLEGRE-1995-515,MCDONOUGH-1995-223}}
+%as according to geochemical assesment Earth's core could contain up to 10mol\% of Ni \cite{} {\color{red}(Уточнить и поставить ссылку на Чёрную Книжку (?))}.
 Addition of nickel to iron phosphides affect the structure and phase stability. 
-The example of Fe$_2$P shows, that even a small addition of Ni and Co stabilise the structure of alabogdanite against XXX ~\cite{Britvin-2002, Buseck1969, Nisar-2010-EPSL}, and also slightly increases the  bulk modulus of the allabogdanite phase.~\cite{Nisar-2010-EPSL} 
-А может здесь сослаться на нашу статью по алабогданиту (Bekker, Sagatov et al., 2020)?
+The example of Fe$_2$P shows, that even a small addition of Ni and Co stabilise the structure of allabogdanite against {\color{blue} barringerite} ~\cite{Britvin-2002, Buseck1969, Nisar-2010-EPSL}, and also slightly increases the  bulk modulus of the allabogdanite phase.~\cite{Nisar-2010-EPSL} 
+{\color{red}А может здесь сослаться на нашу статью по алабогданиту (Bekker, Sagatov et al., 2020)?}
 The incorporation of Ni in nonmagnetic Fe$_4$P results in reduction of the compressional and shear wave velocities enhancing their anisotropy.\cite{Wu-2011-GRL}
 
 %\textbf{Litasov2019}
 There are numerous phases were revealed in Ni--P system at ambient pressure. 
 Among them are Ni$_3$P, Ni$_8$P$_3$, Ni$_{12}$P$_5$ , Ni$_2$P, Ni$_5$P$_4$, NiP, NiP$_2$, and NiP$_3$. 
-Вижу здесь NiP3, Ni5P4, Ni$_{12}$P$_5$. Возникает вопрос, а почему мы их на выпуклую оболочку не нанесли? Ni8P3 и NiP2 нанесли, а эти нет? Какой принцип для выбора фаз? По-хорошему следовало бы для всех этих составов провести предсказания, как мы это делали с гидридами. В Методику нужно обязательно добавить, что какие-то фазы мы брали из литературных данных и просто протягивали их по давлению. Подумайте, может имеет смысл запустить эти расчёты на предсказание, пока статья будет на рецензии они досчитаются и мы это включим в статью
+{\color{red}Вижу здесь NiP3, Ni5P4, Ni$_{12}$P$_5$. Возникает вопрос, а почему мы их на выпуклую оболочку не нанесли? Ni8P3 и NiP2 нанесли, а эти нет? Какой принцип для выбора фаз? По-хорошему следовало бы для всех этих составов провести предсказания, как мы это делали с гидридами. В Методику нужно обязательно добавить, что какие-то фазы мы брали из литературных данных и просто протягивали их по давлению. Подумайте, может имеет смысл запустить эти расчёты на предсказание, пока статья будет на рецензии они досчитаются и мы это включим в статью}
 %\textit{Recently, Britvin et. al. reported a new structure of terristial phosphide Ni$_5$P$_4$ (crystal symmetry P6$_3mc$).} \cite{Britvin2020-Halamishite}
 However, the data on this system at high-pressures, especially above 100 GPa, are limited.
 Donohue et al.\cite{Donohue-1968} studied P-rich compositions (NiP$_{2.2-2.5}$) at 1.5-6.5~GPa. 
@@ -307,10 +310,13 @@ Incongruent melting associated with formation of pyrite-type NiP$_2$ and amorpho
 %Similarly, heating of Ni$_2$P at 6.5 and 15~GPa to 1600-2400$^\circ$C in diamond anvil cell revealed the formation of NiP2 and indicated the possibility of incongruent melting of Ni2P.\cite{Dera-2009-JGR} 
 The phase transitions in Ni$_2$P were not observed in these experiments at pressures up to 50~GPa consistently with theoretical predictions.\cite{Nisar-2010-EPSL}
 Several reversible phase transitions were established in NiP at ambient temperature: (a) from $Pbca$ to $Cmc2_1$ at 3.5~GPa, (b) to $Pnma$-phase at 8.5~GPa and to another $Cmc2_1$-phase, but with different crystal structure at 25~GPa.\cite{Dera-2011-JSSC, Dera2013-PCM}
-{\color{red}Litasov et.al. studied the melting processes and subsolidus phase relations in the Ni-Ni$_2$P system at 6~GPa and 900-1600$^\circ$C.\cite{Litasov-2019-HPR-NiP} 
-Хорошо бы в этой и других подобных ссылках отметить конкретный результат. А так получается просто констатация факта, что кто-то что-то исследовал. А что получено в результате?}
-The stability of four intermediate compositions, Ni$_3$P, Ni$_8$P$_3$/Ni$_5$P$_2$, Ni$_{12}$P$_5$, and Ni$_2$P transjordanite was found. 
+{\color{blue}
+Litasov et.al. studied the melting processes and subsolidus phase relations in the Ni-Ni$_2$P system at 6~GPa and 900-1600$^\circ$C. 
+At 6~GPa and 900-1600$^\circ$C the Ni-Ni$_2$P system has four stable phosphides: Ni$_3$P nickelphosphide, Ni$_8$P$_3$/Ni$_5$P$_2$, Ni$_{12}$P$_5$ and Ni$_2$P transjordanite.  
 The Ni$_{12}$P$_5$ phase becomes unstable at 900$^\circ$C and decomposes into Ni$_5$P$_2$ and Ni$_2$P. 
+%The stability boundary of four intermediate compositions, Ni$_3$P, Ni$_8$P$_3$/Ni$_5$P$_2$, Ni$_{12}$P$_5$, and Ni$_2$P transjordanite was found.
+~\cite{Litasov-2019-HPR-NiP}
+}
 
 The phase stability, elastic properties, hardness and related electronic structures of Ni--P crystal phases at ambient pressure and zero temperature were studied theoretically in Ref.~\cite{Chen-2016-PhaseTrans, Zhao2011-CALPHAD}. 
 The equations of state and structural parameters of Ni$_2$P, NiP$_2$ (pyrite type) and Ni-doped Fe$_2$P (allabogdanite) at high pressures were determined with first-principles calculations.\cite{Nisar-2010-EPSL}
@@ -346,7 +352,10 @@ In these calculations, the cut-off energy was 700 eV and the density of k-points
 
 To take into account the temperature effect and predict the phase diagrams, we used the method of lattice dynamics within the quasi-harmonic approximation (QHA). 
 For this task, the phonon frequencies were calculated with the PHONOPY code.\cite{phonopy}
-Ссылка на ВЕСТу.
+{
+\color{blue} Coordination polyhedrons for predicted structures were visualized with VESTA software~\cite{Momma:VESTA}
+}
+
 
 %\subsection{Graphics}
 %Graphics should be inserted on the page where they are first mentioned (unless they are equations, which appear in the flow of the text).\cite{Cotton1999, VASP-1-PhysRevB.59.1758}
@@ -357,16 +366,23 @@ For this task, the phonon frequencies were calculated with the PHONOPY code.\cit
 %%%%%%%%%%
 \subsection{The analysis of HP crystal structures}
 %%%%%%%%%%
-Structural data of the new phases predicted with USPEX and AIRSS codes are summarized in Table~\ref{tbl:new_phases} and shown in Fig.~\ref{f:strs}. All found structures are dynamically stable, the corresponding phonon spectra presented in Supporting Information (SI) Указать номер рисунка.  
+Structural data of the new phases predicted with USPEX and AIRSS codes are summarized in Table~\ref{tbl:new_phases} and shown in Fig.~\ref{f:strs}. 
+All found structures are dynamically stable, the corresponding phonon spectra presented in Supporting Information (SI) {\color{blue} in Fig.~S1.}
+{\color{blue}
+New structures were predicted at different pressures. 
+Table~\ref{tbl:new_phases} shows the unit cell parameters after the optimization of the volume of unit cells corresponding to an external pressure of 100 GPa.
+}
 
 The structures of Ni$_{14}$P, Ni$_{12}$P, Ni$_{10}$P, Ni$_8$P, Ni$_7$P, Ni$_5$P, and Ni$_3$P are characterized by $fcc$ packing, with Ni atoms partially substituted by P atoms. 
 The pure Ni also present in the $fcc$ form up to 400 GPa.
 Thus, the found structures can be considered as (Ni,P) solid solutions.
 This type of isomorphism between $d$-metal and light element is unusual at ambient pressures.
-At extreme pressures of the Earth's core, when elements which are typical non-metals like sulphur adopt metallic properties \cite{gavr2017_s}, this isomorphism became widespread.
-Isomorphic replacement of iron on sulphur within $hcp$ or $bcc$ crystal structures can be given as an example \cite{gavr2016_fes}.
-{\color{red} Я здесь в обоих случаях на себя ссылаюсь, хорошо бы добавить и другие ссылки (например на Cote и Vocadlo), но сходу ничего предложить не могу.}
-P atoms in found structures tend to be homogeniouslly spread through the structure, without clustering or group formation.
+At extreme pressures of the Earth's core, when elements which are typical non-metals like sulfur adopt metallic properties \cite{gavr2017_s}, this isomorphism became widespread.
+Isomorphic replacement of iron on S, Si and C within $hcp$ or $bcc$ crystal structures can be given as an example \cite{gavr2016_fes, LI2018118}.
+{\color{blue} Добавил ссылку, но bibtex ее не видит. Как и некоторые другие выше. 
+%Я здесь в обоих случаях на себя ссылаюсь, хорошо бы добавить и другие ссылки (например на Cote и Vocadlo), но сходу ничего предложить не могу.
+}
+Phosphorus atoms in found structures tend to be homogeniouslly spread through the structure, without clustering or group formation.
 
 Ni$_{14}$P, Ni$_{12}$P, Ni$_{10}$P, Ni$_8$P, Ni$_7$P, Ni$_5$P structures are characterised by almost ideal fcc packing, with both Ni-Ni and Ni-P bonds are of the same length, equal to 2.7~\AA\ at 100 GPa.
 The Ni-Ni bond in the pure Ni is characterised by the same length.
@@ -380,15 +396,18 @@ This value can be accepted as the estimation for the phosphorus solubility in Ni
 As temperature increases the limits of isomorphism, this value can be sufficiently higher for the conditions of the cores of the Earth or planets.
 The fact, that similar isomorphism was not found in Fe--P systems, likely shows that solubility of P in (Fe,Ni) alloy will be higher than in the pure Fe.
 
-
-
 \begin{figure}
-	\includegraphics[width=0.5\textwidth]{str_ss}
-	\caption{Coordination cube-octahedron around Ni atoms in fcc-Ni (a), Ni$_5$P-$P6_3/mcm$ (b), and Ni$_3$P-$Cmca$ (c) structures; upper row – view along three-fold axis, lower row – perpendicular to the three-fold axis
-{\color{red}
--- У нас везде по тексту просто Ni$_5$P, а здесь он с пространственной группой. Нужно сделать единообразно, т.к. переходов по давлению нет, то пространственные группы можно не писать
-} }\label{f:strs}
+	\includegraphics[width=0.5\textwidth]{str_ss.png}
+	\caption{Coordination polyhedrons in fcc-Ni (a), Ni$_5$P (b), Ni$_3$P (c), and Ni$_2$P structures (d).}\label{f:strs}
 \end{figure}
+
+%\begin{figure}
+%	\includegraphics[width=0.5\textwidth]{str_ss}
+%	\caption{Coordination cube-octahedron around Ni atoms in fcc-Ni (a), Ni$_5$P-$P6_3/mcm$ (b), and Ni$_3$P-$Cmca$ (c) structures; upper row – view along three-fold axis, lower row – perpendicular to the three-fold axis
+%{\color{red}
+%-- У нас везде по тексту просто Ni$_5$P, а здесь он с пространственной группой. Нужно сделать единообразно, т.к. переходов по давлению нет, то пространственные группы можно не писать
+%} }\label{f:strs}
+%\end{figure}
 
 
 Spin-polarized calculations show the presence of a magnetic moment in structures with a relatively high nickel content from Ni$_{14}$ to Ni$_8$P, as shown in Fig.~\ref{fgr:magmom}. 
@@ -437,10 +456,17 @@ We performed phonon mode calculations for all predicted structures, described ab
 Experimentally synthesised Ni$_8$P$_3$ was not considered in this context, due to the large size of the unit cell, containing 132 atoms.
 Speculatively we assume thermodynamic instability of such a low symmetric structure in the filed of high temperatures, due to effect of entropy.
 
-\begin{figure}[h]
+%\begin{figure}[h]
+% \centering
+% \includegraphics[width=0.45\textwidth]{convex_hull-2.png} %[height=6cm]
+% \caption{Convex hulls of Ni--P system at various pressures and 0~K. Blue squares denote stable structures, red triangles - metastable ones}
+% \label{fgr:convex_hull}
+%\end{figure}
+
+\begin{figure}
  \centering
  \includegraphics[width=0.45\textwidth]{convex_hull-2.png} %[height=6cm]
- \caption{Convex hulls of Ni--P system at various pressures and 0~K. Blue squares denote stable structures, red triangles - metastable ones}
+ \caption{Global stability convex hulls of the Ni−-P system at the pressure range 100−400 GPa (a) and predicted pressure-composition phase diagram for the Ni−-P system. Blue squares denote stable structures, red triangles - metastable structures.}
  \label{fgr:convex_hull}
 \end{figure}
 
@@ -464,8 +490,8 @@ The diagrams shows, that transition from barringerite to allabogdanite structure
 The transition from schreibersite to the found $Cmcm$ structure occurs at 62~GPa and pressure of phase transition is almost independent from temperature.
 
 
-\section{Conclusions}
-{\color{red}Я убрал этот раздел, точнее переместил его в аннотацию. В большинстве журналов он не обязательный, и я уже несколько раз видел рекомендацию "Раздел Выводы необходим только в том случае, если он содержит какую-то дополнительную информацию, не содержащуюся в аннотации". }
+%\section{Conclusions}
+%{\color{red}Я убрал этот раздел, точнее переместил его в аннотацию. В большинстве журналов он не обязательный, и я уже несколько раз видел рекомендацию "Раздел Выводы необходим только в том случае, если он содержит какую-то дополнительную информацию, не содержащуюся в аннотации". }
 
 \section*{Acknowledgements}
 
@@ -479,6 +505,3 @@ The reported calculations on crystal structure prediction was funded by RFBR, pr
 \bibliographystyle{rsc} %the RSC's .bst file
 
 \end{document}
-
-
-
