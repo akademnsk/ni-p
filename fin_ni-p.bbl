@@ -1,7 +1,7 @@
 \providecommand*{\mcitethebibliography}{\thebibliography}
 \csname @ifundefined\endcsname{endmcitethebibliography}
 {\let\endmcitethebibliography\endthebibliography}{}
-\begin{mcitethebibliography}{39}
+\begin{mcitethebibliography}{38}
 \providecommand*{\natexlab}[1]{#1}
 \providecommand*{\mciteSetBstSublistMode}[1]{}
 \providecommand*{\mciteSetBstMaxWidthForm}[2]{}
@@ -315,15 +315,6 @@ P.~N. Gavryushkin, K.~D. Litasov, S.~S. Dobrosmislov and Z.~I. Popov,
 P.~N. Gavryushkin, Z.~I. Popov, K.~D. Litasov, A.~B. Belonoshko and
   A.~Gavryushkin, \emph{Geophysical Research Letters}, 2016, \textbf{43},
   8435--8440\relax
-\mciteBstWouldAddEndPuncttrue
-\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
-{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
-\EndOfBibitem
-\bibitem[Oryshchyn \emph{et~al.}({2004})Oryshchyn, Babizhetskyy, Chykhriy,
-  Aksel'rud, Stoyko, Bauer, Guerin, and Kuz'ma]{Oryshchyn-2004}
-S.~Oryshchyn, V.~Babizhetskyy, S.~Chykhriy, L.~Aksel'rud, S.~Stoyko, I.~Bauer,
-  R.~Guerin and Y.~Kuz'ma, \emph{{Inorganic Materials}}, {2004}, \textbf{{40}},
-  {380--385}\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax

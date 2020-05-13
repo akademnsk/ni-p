@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2017)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: fin_ni-p.aux
 The style file: rsc.bst
 Database file #1: NiP.bib
@@ -16,46 +16,45 @@ I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-rsc 2016/08/22 v3.1f
-You've used 39 entries,
-            3113 wiz_defined-function locations,
-            1025 strings with 16810 characters,
-and the built_in function-call counts, 15017 in all, are:
-= -- 1098
-> -- 1209
+You've used 38 entries,
+            3085 wiz_defined-function locations,
+            1007 strings with 16426 characters,
+and the built_in function-call counts, 14510 in all, are:
+= -- 1066
+> -- 1156
 < -- 13
-+ -- 379
-- -- 340
-* -- 1680
-:= -- 2365
-add.period$ -- 39
-call.type$ -- 39
++ -- 362
+- -- 324
+* -- 1618
+:= -- 2280
+add.period$ -- 38
+call.type$ -- 38
 change.case$ -- 0
-chr.to.int$ -- 39
-cite$ -- 39
-duplicate$ -- 572
-empty$ -- 910
-format.name$ -- 399
-if$ -- 2891
+chr.to.int$ -- 38
+cite$ -- 38
+duplicate$ -- 557
+empty$ -- 884
+format.name$ -- 382
+if$ -- 2797
 int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 255
-num.names$ -- 117
-pop$ -- 117
+newline$ -- 249
+num.names$ -- 114
+pop$ -- 114
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 297
+skip$ -- 290
 stack$ -- 0
-substring$ -- 865
-swap$ -- 294
-text.length$ -- 78
+substring$ -- 834
+swap$ -- 286
+text.length$ -- 76
 text.prefix$ -- 0
-top$ -- 1
-type$ -- 273
+top$ -- 0
+type$ -- 266
 warning$ -- 0
-while$ -- 139
+while$ -- 135
 width$ -- 0
-write$ -- 566
+write$ -- 552
 (There were 2 error messages)
